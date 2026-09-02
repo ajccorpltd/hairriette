@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hair'Riette — Luxury Wig & Afro Hair Artistry | Brixton, London</title>
+<meta name="description" content="Hair'Riette is a premium Afro hair and wig specialist in Brixton, London. Expert wig manufacturing, custom wig design, installation, braids, cornrows and professional hair services.">
+<meta name="keywords" content="Afro hairdresser Brixton, wig maker London, custom wigs London, wig installation London, braids Brixton, cornrows Brixton, Afro hair London, hairdresser Brixton">
+<meta property="og:title" content="Hair'Riette — Luxury Wig & Afro Hair Artistry">
+<meta property="og:description" content="Premium wig manufacturing, customisation and Afro hair services. Brixton, London.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://hairriette.co.uk/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "Afro Hair'Riette Brixton Hairdressers",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Unit 33, 422 Brixton Road",
+    "addressLocality": "Brixton",
+    "addressRegion": "London",
+    "postalCode": "SW9 7AE",
+    "addressCountry": "GB"
+  },
+  "telephone": "07476812739",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "19"
+  },
+  "openingHours": ["Mo-Sa 09:00-21:00", "Su 10:00-18:00"],
+  "priceRange": "££",
+  "description": "Premium Afro hair and wig specialist in Brixton, London."
+}
+</script>
+<style>
+/* ============================================
+   DESIGN TOKENS — HAIR'RIETTE
+   ============================================ */
+:root {
+  --black:      #0B0B0B;
+  --charcoal:   #141414;
+  --dark:       #1A1A1A;
+  --mid:        #2A2A2A;
+  --ivory:      #F5F0E8;
+  --ivory-deep: #EDE7D9;
+  --gold:       #C9A96E;
+  --gold-light: #D4B57A;
+  --gold-muted: #9C7A45;
+  --nude:       #D4B8A0;
+  --nude-light: #E8D5C4;
+  --white:      #FFFFFF;
+  --text-dark:  #0B0B0B;
+  --text-mid:   #555555;
+  --text-light: #888888;
+  --serif:  'Cormorant Garamond', Georgia, serif;
+  --sans:   'Manrope', system-ui, sans-serif;
+  --radius-sm: 2px;
+  --transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-fast: 0.2s ease;
+  --nav-h: 72px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--sans);background:var(--black);color:var(--white);line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{cursor:pointer;border:none;background:none;font-family:inherit}
+input,textarea,select{font-family:inherit}
+ul{list-style:none}
+
+/* TYPOGRAPHY */
+.display-xl{font-family:var(--serif);font-size:clamp(3.5rem,9vw,9rem);font-weight:300;line-height:0.95;letter-spacing:-0.03em}
+.display-lg{font-family:var(--serif);font-size:clamp(2.8rem,6vw,6.5rem);font-weight:300;line-height:1.0;letter-spacing:-0.025em}
+.display-md{font-family:var(--serif);font-size:clamp(2rem,4vw,4rem);font-weight:300;line-height:1.05;letter-spacing:-0.02em}
+.label{font-family:var(--sans);font-size:0.65rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase}
+.body-lg{font-family:var(--sans);font-size:1.05rem;font-weight:300;line-height:1.7}
+.body{font-family:var(--sans);font-size:0.9rem;font-weight:300;line-height:1.65}
+.gold-text{color:var(--gold)}
+.ivory-text{color:var(--ivory)}
+
+/* LAYOUT */
+.container{max-width:1360px;margin:0 auto;padding:0 40px}
+@media(max-width:768px){.container{padding:0 20px}}
+
+/* GOLD ACCENT */
+.gold-line{width:40px;height:1px;background:var(--gold);display:block}
+.section-label{display:flex;align-items:center;gap:16px;margin-bottom:32px}
+.section-label .label{color:var(--gold)}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--sans);font-size:0.72rem;font-weight:600;letter-spacing:0.16em;text-transform:uppercase;padding:16px 36px;border:1px solid currentColor;transition:var(--transition);position:relative;overflow:hidden;cursor:pointer}
+.btn::before{content:'';position:absolute;inset:0;transform:scaleX(0);transform-origin:left;transition:transform var(--transition)}
+.btn:hover::before{transform:scaleX(1)}
+.btn-gold{color:var(--black);background:var(--gold);border-color:var(--gold)}
+.btn-gold::before{background:var(--gold-light)}
+.btn-gold:hover{color:var(--black)}
+.btn-outline-gold{color:var(--gold);background:transparent;border-color:var(--gold)}
+.btn-outline-gold::before{background:var(--gold)}
+.btn-outline-gold:hover{color:var(--black)}
+.btn-outline-ivory{color:var(--ivory);background:transparent;border-color:rgba(245,240,232,0.4)}
+.btn-outline-ivory::before{background:var(--ivory)}
+.btn-outline-ivory:hover{color:var(--black)}
+.btn-outline-dark{color:var(--black);background:transparent;border-color:rgba(0,0,0,0.3)}
+.btn-outline-dark::before{background:var(--black)}
+.btn-outline-dark:hover{color:var(--white)}
+.btn span{position:relative;z-index:1}
+
+/* PAGE SPA */
+.page{display:none}
+.page.active{display:block}
+
+/* NAV */
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;height:var(--nav-h);display:flex;align-items:center;transition:background var(--transition),border-color var(--transition);border-bottom:1px solid transparent}
+.nav.scrolled{background:rgba(11,11,11,0.96);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom-color:rgba(201,169,110,0.15)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;width:100%}
+.nav-logo{font-family:var(--serif);font-size:1.3rem;font-weight:400;letter-spacing:0.04em;color:var(--ivory);cursor:pointer}
+.nav-logo .accent{color:var(--gold)}
+.nav-links{display:flex;align-items:center;gap:40px}
+.nav-link{font-size:0.68rem;font-weight:500;letter-spacing:0.14em;text-transform:uppercase;color:rgba(245,240,232,0.7);transition:color var(--transition-fast);cursor:pointer;position:relative}
+.nav-link::after{content:'';position:absolute;bottom:-3px;left:0;right:0;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform var(--transition-fast)}
+.nav-link:hover,.nav-link.active{color:var(--ivory)}
+.nav-link:hover::after,.nav-link.active::after{transform:scaleX(1)}
+.nav-cta{font-size:0.68rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--black);background:var(--gold);padding:11px 24px;transition:var(--transition-fast);cursor:pointer}
+.nav-cta:hover{background:var(--gold-light)}
+.nav-burger{display:none;flex-direction:column;gap:5px;padding:8px;cursor:pointer}
+.nav-burger span{display:block;width:24px;height:1px;background:var(--ivory);transition:var(--transition)}
+.nav-mobile{position:fixed;inset:0;z-index:999;background:var(--black);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:40px;opacity:0;pointer-events:none;transition:opacity var(--transition)}
+.nav-mobile.open{opacity:1;pointer-events:all}
+.nav-mobile .nav-link{font-family:var(--serif);font-size:2.2rem;font-weight:300;letter-spacing:0.06em;color:var(--ivory);text-transform:none}
+.nav-mobile-close{position:absolute;top:24px;right:24px;font-size:1.5rem;color:var(--ivory);cursor:pointer;padding:8px}
+.nav-mobile-contact{margin-top:20px;text-align:center}
+.nav-mobile-contact p{font-size:0.75rem;color:var(--text-light);letter-spacing:0.1em;margin-bottom:8px}
+.nav-mobile-contact a{color:var(--gold);font-size:1rem}
+@media(max-width:960px){.nav-links,.nav-cta{display:none}.nav-burger{display:flex}}
+
+/* HERO */
+.hero{position:relative;height:100vh;min-height:700px;display:flex;align-items:flex-end;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:var(--charcoal)}
+.hero-visual{position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 65% 40%,rgba(201,169,110,0.06) 0%,transparent 60%),radial-gradient(ellipse 40% 60% at 30% 70%,rgba(212,184,160,0.04) 0%,transparent 50%),linear-gradient(165deg,var(--charcoal) 0%,#0f0d0c 50%,var(--black) 100%)}
+.hero-strands{position:absolute;inset:0;opacity:0.12}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(11,11,11,0.95) 0%,rgba(11,11,11,0.5) 40%,rgba(11,11,11,0.15) 100%)}
+.hero-gold-band{position:absolute;right:0;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,transparent,var(--gold),transparent);opacity:0.4}
+.hero-content{position:relative;z-index:2;padding:0 40px 80px;width:100%;max-width:1360px;margin:0 auto}
+.hero-eyebrow{display:flex;align-items:center;gap:14px;margin-bottom:28px;opacity:0;animation:fadeUp 1s 0.3s forwards}
+.hero-title{opacity:0;animation:fadeUp 1s 0.6s forwards;margin-bottom:28px}
+.hero-sub{color:rgba(245,240,232,0.6);font-size:1rem;font-weight:300;letter-spacing:0.06em;margin-bottom:48px;opacity:0;animation:fadeUp 1s 0.9s forwards}
+.hero-ctas{display:flex;gap:16px;flex-wrap:wrap;opacity:0;animation:fadeUp 1s 1.1s forwards}
+.hero-scroll{position:absolute;bottom:80px;right:60px;display:flex;flex-direction:column;align-items:center;gap:10px;opacity:0;animation:fadeIn 1s 1.5s forwards}
+.hero-scroll span{writing-mode:vertical-rl;font-size:0.6rem;letter-spacing:0.2em;color:var(--gold);text-transform:uppercase}
+.hero-scroll-line{width:1px;height:60px;background:linear-gradient(to bottom,var(--gold),transparent);animation:scrollLine 2s 2s infinite}
+.hero-location{position:absolute;top:50%;right:40px;transform:translateY(-50%) rotate(90deg);font-size:0.6rem;letter-spacing:0.25em;color:rgba(201,169,110,0.5);text-transform:uppercase;white-space:nowrap}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes scrollLine{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@media(max-width:768px){.hero-content{padding:0 20px 100px}.hero-scroll,.hero-location{display:none}.hero-ctas{flex-direction:column}.hero-ctas .btn{text-align:center;justify-content:center}}
+
+/* INTRO */
+.intro{background:var(--ivory);color:var(--black);padding:140px 0;overflow:hidden}
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.intro-image-main{width:100%;aspect-ratio:3/4;background:var(--ivory-deep);position:relative;overflow:hidden}
+.intro-image-float{position:absolute;bottom:-40px;right:-40px;width:55%;aspect-ratio:1;background:var(--black);border:3px solid var(--ivory)}
+.intro-title{margin-bottom:32px;color:var(--black)}
+.intro-title em{font-style:italic;color:var(--gold-muted)}
+.intro-body{color:var(--text-mid);margin-bottom:24px;max-width:480px}
+.intro-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-bottom:48px;padding:40px 0;border-top:1px solid rgba(0,0,0,0.1);border-bottom:1px solid rgba(0,0,0,0.1)}
+.stat-number{font-family:var(--serif);font-size:2.8rem;font-weight:300;color:var(--gold-muted);line-height:1;margin-bottom:6px}
+.stat-label{font-size:0.7rem;color:var(--text-mid);letter-spacing:0.08em;text-transform:uppercase}
+@media(max-width:960px){.intro-grid{grid-template-columns:1fr;gap:60px}.intro-image-float{display:none}.intro{padding:80px 0}}
+@media(max-width:600px){.intro-stats{grid-template-columns:1fr 1fr;gap:24px}}
+
+/* SERVICES HOME */
+.services-home{background:var(--black);padding:140px 0;overflow:hidden}
+.services-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:64px}
+.services-grid-home{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.service-card{position:relative;aspect-ratio:3/4;overflow:hidden;background:var(--dark);cursor:pointer}
+.service-card-bg{position:absolute;inset:0;transition:transform 0.7s cubic-bezier(0.25,0.46,0.45,0.94)}
+.service-card:hover .service-card-bg{transform:scale(1.05)}
+.service-card-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(11,11,11,0.92) 0%,rgba(11,11,11,0.3) 50%,transparent 100%)}
+.service-card-content{position:absolute;bottom:0;left:0;right:0;padding:32px;transform:translateY(8px);transition:transform var(--transition)}
+.service-card:hover .service-card-content{transform:translateY(0)}
+.service-card-label{color:var(--gold);margin-bottom:10px;font-size:0.6rem;font-weight:600;letter-spacing:0.2em;text-transform:uppercase}
+.service-card-title{font-family:var(--serif);font-size:1.6rem;font-weight:300;color:var(--ivory);line-height:1.15;margin-bottom:14px}
+.service-card-desc{font-size:0.82rem;color:rgba(245,240,232,0.65);line-height:1.6;margin-bottom:20px;max-height:0;overflow:hidden;transition:max-height 0.4s ease}
+.service-card:hover .service-card-desc{max-height:80px}
+.service-card-link{display:inline-flex;align-items:center;gap:8px;font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);font-weight:600;opacity:0;transition:opacity var(--transition)}
+.service-card:hover .service-card-link{opacity:1}
+.service-card-link::after{content:'→';transition:transform var(--transition-fast)}
+.service-card:hover .service-card-link::after{transform:translateX(4px)}
+.svc-bg-1{background:linear-gradient(135deg,#1a1208 0%,#2a1f10 40%,#1a1208 100%)}
+.svc-bg-2{background:linear-gradient(135deg,#0f0f12 0%,#1a1520 40%,#0f0f12 100%)}
+.svc-bg-3{background:linear-gradient(135deg,#120d0a 0%,#201510 40%,#120d0a 100%)}
+.svc-bg-4{background:linear-gradient(135deg,#0a1212 0%,#101e1e 40%,#0a1212 100%)}
+.svc-bg-5{background:linear-gradient(135deg,#12100a 0%,#1e1a0f 40%,#12100a 100%)}
+.svc-bg-6{background:linear-gradient(135deg,#100a10 0%,#180f18 40%,#100a10 100%)}
+.svc-icon{position:absolute;top:28px;right:28px;width:48px;height:48px;opacity:0.25;transition:opacity var(--transition)}
+.service-card:hover .svc-icon{opacity:0.5}
+@media(max-width:960px){.services-grid-home{grid-template-columns:1fr 1fr}.services-header{flex-direction:column;align-items:flex-start;gap:24px}.services-home{padding:80px 0}}
+@media(max-width:600px){.services-grid-home{grid-template-columns:1fr}.service-card{aspect-ratio:4/3}}
+
+/* WIG EXPERIENCE */
+.wig-experience{background:var(--ivory);color:var(--black);padding:160px 0;overflow:hidden;position:relative}
+.wig-exp-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:center}
+.wig-exp-image{width:100%;aspect-ratio:2/3;background:var(--ivory-deep);position:relative;overflow:hidden}
+.wig-exp-image::before{content:'';position:absolute;inset:0;border:1px solid rgba(201,169,110,0.3);z-index:1}
+.wig-exp-float{position:absolute;top:-30px;left:-30px;width:200px;background:var(--black);padding:28px;z-index:2}
+.wig-exp-float-num{font-family:var(--serif);font-size:3rem;color:var(--gold);font-weight:300;line-height:1;margin-bottom:4px}
+.wig-exp-float-text{font-size:0.7rem;color:rgba(245,240,232,0.6);letter-spacing:0.1em;text-transform:uppercase}
+.wig-process{margin:48px 0}
+.wig-process-item{display:flex;gap:24px;padding:20px 0;border-bottom:1px solid rgba(0,0,0,0.08)}
+.wig-process-num{font-family:var(--serif);font-size:1.4rem;color:var(--gold-muted);font-weight:300;flex-shrink:0;width:30px}
+.wig-process-text h4{font-family:var(--sans);font-size:0.85rem;font-weight:600;margin-bottom:4px;color:var(--black)}
+.wig-process-text p{font-size:0.8rem;color:var(--text-mid)}
+.wig-exp-bg-text{position:absolute;bottom:-80px;left:-40px;font-family:var(--serif);font-size:14vw;font-weight:300;color:transparent;-webkit-text-stroke:1px rgba(0,0,0,0.04);line-height:1;pointer-events:none;user-select:none;white-space:nowrap}
+@media(max-width:960px){.wig-exp-grid{grid-template-columns:1fr;gap:60px}.wig-experience{padding:80px 0}.wig-exp-float{display:none}.wig-exp-image{aspect-ratio:4/3}.wig-exp-bg-text{display:none}}
+
+/* TESTIMONIALS */
+.testimonials{background:var(--black);padding:140px 0;overflow:hidden}
+.testimonials-header{text-align:center;margin-bottom:80px}
+.testimonials-carousel{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
+.testimonial-card{background:var(--dark);padding:48px 40px;position:relative;overflow:hidden}
+.testimonial-card::before{content:'"';position:absolute;top:-20px;left:30px;font-family:var(--serif);font-size:12rem;color:rgba(201,169,110,0.06);line-height:1;font-weight:300;pointer-events:none}
+.testimonial-stars{display:flex;gap:4px;margin-bottom:24px;color:var(--gold);font-size:1rem}
+.testimonial-text{font-family:var(--serif);font-size:1.15rem;font-weight:300;font-style:italic;color:var(--ivory);line-height:1.65;margin-bottom:32px}
+.testimonial-author{display:flex;align-items:center;gap:16px}
+.testimonial-avatar{width:40px;height:40px;border-radius:50%;background:var(--gold-muted);display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:1rem;color:var(--black);flex-shrink:0}
+.testimonial-name{font-size:0.8rem;font-weight:600;letter-spacing:0.06em}
+.testimonial-via{font-size:0.68rem;color:var(--text-light);letter-spacing:0.08em}
+.testimonials-cta{text-align:center;margin-top:60px}
+@media(max-width:960px){.testimonials-carousel{grid-template-columns:1fr}.testimonials{padding:80px 0}}
+
+/* BEFORE/AFTER */
+.before-after{background:var(--charcoal);padding:140px 0;overflow:hidden}
+.ba-header{margin-bottom:80px}
+.ba-slider-wrap{display:grid;grid-template-columns:1fr 1fr;gap:2px;max-width:900px}
+.ba-panel{position:relative;aspect-ratio:3/4;overflow:hidden}
+.ba-panel-bg{position:absolute;inset:0}
+.ba-before-bg{background:linear-gradient(135deg,#1a1610 0%,#241d12 100%)}
+.ba-after-bg{background:linear-gradient(135deg,#0f1208 0%,#161a0e 100%)}
+.ba-label{position:absolute;top:24px;left:24px;font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;padding:6px 14px;border:1px solid}
+.ba-before .ba-label{color:rgba(245,240,232,0.6);border-color:rgba(245,240,232,0.2)}
+.ba-after .ba-label{color:var(--gold);border-color:rgba(201,169,110,0.4)}
+.ba-transform-note{position:absolute;bottom:24px;left:24px;right:24px;text-align:center;font-family:var(--serif);font-size:0.9rem;font-style:italic;color:rgba(245,240,232,0.4)}
+@media(max-width:768px){.ba-slider-wrap{grid-template-columns:1fr}.before-after{padding:80px 0}}
+
+/* SOCIAL */
+.social-section{background:var(--black);padding:140px 0;overflow:hidden}
+.social-header{text-align:center;margin-bottom:60px}
+.social-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-bottom:60px}
+.social-cell{aspect-ratio:1;background:var(--dark);position:relative;overflow:hidden;cursor:pointer}
+.social-cell-bg{position:absolute;inset:0;transition:transform 0.6s cubic-bezier(0.25,0.46,0.45,0.94)}
+.social-cell:hover .social-cell-bg{transform:scale(1.08)}
+.social-cell-overlay{position:absolute;inset:0;background:rgba(11,11,11,0);display:flex;align-items:center;justify-content:center;transition:background var(--transition)}
+.social-cell:hover .social-cell-overlay{background:rgba(11,11,11,0.5)}
+.social-cell-icon{font-size:1.5rem;opacity:0;transform:translateY(8px);transition:opacity var(--transition),transform var(--transition);color:var(--gold)}
+.social-cell:hover .social-cell-icon{opacity:1;transform:translateY(0)}
+.social-handles{display:flex;justify-content:center;gap:48px;flex-wrap:wrap}
+.social-handle-link{display:flex;align-items:center;gap:12px;color:var(--ivory);font-size:0.85rem;transition:color var(--transition-fast)}
+.social-handle-link:hover{color:var(--gold)}
+@media(max-width:768px){.social-grid{grid-template-columns:repeat(2,1fr)}.social-section{padding:80px 0}}
+
+/* FINAL CTA */
+.final-cta{background:var(--ivory);color:var(--black);padding:160px 0;text-align:center;position:relative;overflow:hidden}
+.final-cta-bg{position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 50%,rgba(201,169,110,0.08) 0%,transparent 70%)}
+.final-cta-content{position:relative;z-index:1}
+.final-cta h2{color:var(--black);margin-bottom:24px}
+.final-cta p{color:var(--text-mid);max-width:520px;margin:0 auto 56px}
+.final-cta-btns{display:flex;justify-content:center;gap:16px;flex-wrap:wrap}
+@media(max-width:600px){.final-cta{padding:100px 0}.final-cta-btns{flex-direction:column;align-items:center}}
+
+/* FOOTER */
+.footer{background:var(--charcoal);padding:80px 0 40px;border-top:1px solid rgba(201,169,110,0.15)}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;gap:60px;margin-bottom:60px}
+.footer-logo{font-family:var(--serif);font-size:1.4rem;font-weight:400;color:var(--ivory);margin-bottom:16px;letter-spacing:0.04em}
+.footer-logo .accent{color:var(--gold)}
+.footer-tagline{font-size:0.82rem;color:var(--text-light);line-height:1.6;max-width:260px;margin-bottom:28px}
+.footer-social{display:flex;gap:16px;flex-wrap:wrap}
+.footer-social-link{width:36px;height:36px;border:1px solid rgba(201,169,110,0.2);display:flex;align-items:center;justify-content:center;font-size:0.8rem;color:rgba(245,240,232,0.5);transition:var(--transition-fast)}
+.footer-social-link:hover{border-color:var(--gold);color:var(--gold)}
+.footer-col-title{font-size:0.65rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;font-weight:600}
+.footer-links{display:flex;flex-direction:column;gap:10px}
+.footer-links a{font-size:0.82rem;color:rgba(245,240,232,0.55);transition:color var(--transition-fast);cursor:pointer}
+.footer-links a:hover{color:var(--ivory)}
+.footer-contact-item{display:flex;gap:12px;align-items:flex-start;margin-bottom:12px}
+.footer-contact-icon{color:var(--gold);font-size:0.8rem;flex-shrink:0;margin-top:2px}
+.footer-contact-text{font-size:0.8rem;color:rgba(245,240,232,0.5);line-height:1.5}
+.footer-contact-text a{color:rgba(245,240,232,0.5)}
+.footer-contact-text a:hover{color:var(--gold)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:40px;border-top:1px solid rgba(255,255,255,0.06);flex-wrap:wrap;gap:16px}
+.footer-copy{font-size:0.73rem;color:rgba(245,240,232,0.3);letter-spacing:0.06em}
+.footer-legal{display:flex;gap:24px}
+.footer-legal a{font-size:0.73rem;color:rgba(245,240,232,0.3);transition:color var(--transition-fast)}
+.footer-legal a:hover{color:var(--ivory)}
+.footer-credit{font-size:0.73rem;color:rgba(245,240,232,0.2);letter-spacing:0.06em}
+@media(max-width:960px){.footer-grid{grid-template-columns:1fr 1fr;gap:40px}}
+@media(max-width:600px){.footer-grid{grid-template-columns:1fr;gap:32px}.footer-bottom{flex-direction:column;text-align:center}.footer-legal{justify-content:center}}
+
+/* PAGE HERO */
+.page-hero-dark{background:var(--black);padding:calc(var(--nav-h) + 120px) 0 120px}
+.page-hero-eyebrow{display:flex;align-items:center;gap:14px;margin-bottom:24px}
+
+/* ABOUT */
+.about-story{background:var(--ivory);color:var(--black);padding:140px 0}
+.about-story-grid{display:grid;grid-template-columns:1fr 1fr;gap:100px;align-items:start}
+.about-story-image{width:100%;aspect-ratio:3/4;background:var(--ivory-deep);position:relative;overflow:hidden;margin-bottom:20px}
+.about-story-image::after{content:'';position:absolute;right:-1px;bottom:-1px;width:60px;height:60px;border-right:2px solid var(--gold);border-bottom:2px solid var(--gold)}
+.about-story-image-2{width:65%;aspect-ratio:1;background:var(--nude-light);margin-left:auto}
+.about-story-right h3{font-family:var(--serif);font-size:2rem;font-weight:300;margin-bottom:28px;color:var(--black);line-height:1.2}
+.about-values{margin-top:60px}
+.about-value-item{display:flex;gap:24px;padding:24px 0;border-bottom:1px solid rgba(0,0,0,0.08)}
+.about-value-num{font-family:var(--serif);font-size:1.1rem;color:var(--gold-muted);font-weight:300;flex-shrink:0;width:28px}
+.about-value-text h4{font-size:0.85rem;font-weight:600;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.08em}
+.about-value-text p{font-size:0.82rem;color:var(--text-mid);line-height:1.6}
+.about-why{background:var(--black);padding:140px 0}
+.about-why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:60px}
+.why-card{background:var(--dark);padding:48px 32px;position:relative;overflow:hidden;transition:background var(--transition-fast)}
+.why-card:hover{background:#1e1e1e}
+.why-card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(to right,transparent,var(--gold),transparent);opacity:0;transition:opacity var(--transition)}
+.why-card:hover::before{opacity:1}
+.why-icon{font-size:1.8rem;margin-bottom:24px;display:block;color:var(--gold)}
+.why-title{font-family:var(--serif);font-size:1.2rem;font-weight:300;color:var(--ivory);margin-bottom:12px}
+.why-text{font-size:0.8rem;color:var(--text-light);line-height:1.65}
+@media(max-width:960px){.about-story-grid{grid-template-columns:1fr;gap:60px}.about-story{padding:80px 0}.about-why-grid{grid-template-columns:1fr 1fr}.about-why{padding:80px 0}}
+@media(max-width:600px){.about-why-grid{grid-template-columns:1fr}}
+
+/* SERVICES PAGE */
+.services-page{background:var(--black);padding-top:var(--nav-h);min-height:100vh}
+.services-page-hero{padding:120px 0 80px;background:var(--black);border-bottom:1px solid rgba(201,169,110,0.1)}
+.services-categories{padding:100px 0}
+.services-cat{margin-bottom:100px}
+.services-cat-header{display:flex;align-items:center;gap:32px;margin-bottom:48px;padding-bottom:24px;border-bottom:1px solid rgba(201,169,110,0.2)}
+.services-cat-title{font-family:var(--serif);font-size:2rem;font-weight:300;color:var(--ivory);letter-spacing:-0.01em}
+.services-cat-count{font-size:0.7rem;color:var(--gold);letter-spacing:0.15em;padding:4px 12px;border:1px solid rgba(201,169,110,0.3)}
+.services-list{display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.service-item{background:var(--dark);padding:40px;display:flex;justify-content:space-between;align-items:flex-start;gap:24px;cursor:pointer;transition:background var(--transition-fast);position:relative;overflow:hidden}
+.service-item::before{content:'';position:absolute;left:0;top:0;bottom:0;width:0;background:var(--gold);transition:width 0.3s ease}
+.service-item:hover{background:#1e1e1e}
+.service-item:hover::before{width:2px}
+.service-item-name{font-family:var(--serif);font-size:1.25rem;font-weight:300;color:var(--ivory);margin-bottom:10px;line-height:1.2}
+.service-item-desc{font-size:0.8rem;color:var(--text-light);line-height:1.6;max-width:380px}
+.service-item-right{text-align:right;flex-shrink:0}
+.service-item-price{font-family:var(--serif);font-size:1.1rem;font-weight:400;color:var(--gold);margin-bottom:16px}
+.service-item-book{display:inline-flex;font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;font-weight:600;color:var(--gold);gap:6px;align-items:center;transition:gap var(--transition-fast)}
+.service-item:hover .service-item-book{gap:10px}
+.service-item-book::after{content:'→'}
+.rating-row{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.rating-stars{display:flex;gap:3px;color:var(--gold);font-size:0.9rem}
+.rating-count{font-size:0.78rem;color:var(--text-light)}
+@media(max-width:960px){.services-list{grid-template-columns:1fr}}
+
+/* BOOKING MODAL */
+.modal-overlay{position:fixed;inset:0;z-index:2000;background:rgba(11,11,11,0.92);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;opacity:0;pointer-events:none;transition:opacity var(--transition);padding:20px}
+.modal-overlay.open{opacity:1;pointer-events:all}
+.modal{background:var(--charcoal);width:100%;max-width:620px;max-height:92vh;overflow-y:auto;position:relative;transform:translateY(20px);transition:transform var(--transition);border-top:2px solid var(--gold)}
+.modal-overlay.open .modal{transform:translateY(0)}
+.modal-header{padding:40px 48px 32px;border-bottom:1px solid rgba(255,255,255,0.06);position:relative}
+.modal-close{position:absolute;top:20px;right:24px;width:36px;height:36px;display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:1.2rem;cursor:pointer;transition:color var(--transition-fast);border:1px solid rgba(255,255,255,0.1)}
+.modal-close:hover{color:var(--gold);border-color:var(--gold)}
+.modal-title{font-family:var(--serif);font-size:1.8rem;font-weight:300;color:var(--ivory);margin-bottom:6px}
+.modal-sub{font-size:0.8rem;color:var(--text-light)}
+.modal-body{padding:40px 48px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:0}
+.form-group{margin-bottom:16px}
+.form-label{display:block;font-size:0.68rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-light);margin-bottom:8px;font-weight:500}
+.form-input{width:100%;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);color:var(--ivory);padding:14px 16px;font-size:0.88rem;font-family:var(--sans);transition:border-color var(--transition-fast);outline:none}
+.form-input:focus{border-color:var(--gold)}
+.form-input::placeholder{color:rgba(245,240,232,0.25)}
+select.form-input option{background:var(--dark);color:var(--ivory)}
+.modal-actions{padding:0 48px 48px;display:flex;flex-direction:column;gap:12px}
+.modal-action-title{font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-light);margin-bottom:4px}
+.booking-btn-email{width:100%;padding:18px;background:var(--gold);color:var(--black);font-size:0.75rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;text-align:center;transition:background var(--transition-fast);cursor:pointer;border:none;font-family:var(--sans)}
+.booking-btn-email:hover{background:var(--gold-light)}
+.booking-btn-wa{width:100%;padding:18px;background:#25D366;color:var(--white);font-size:0.75rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;text-align:center;transition:opacity var(--transition-fast);cursor:pointer;border:none;display:flex;align-items:center;justify-content:center;gap:10px;font-family:var(--sans)}
+.booking-btn-wa:hover{opacity:0.9}
+.booking-divider{text-align:center;font-size:0.7rem;color:var(--text-light);letter-spacing:0.1em;text-transform:uppercase}
+@media(max-width:600px){.modal-header,.modal-body,.modal-actions{padding-left:24px;padding-right:24px}.modal-header{padding-top:32px}.form-row{grid-template-columns:1fr}}
+
+/* GALLERY */
+.gallery-page{background:var(--black);padding-top:var(--nav-h);min-height:100vh}
+.gallery-hero{padding:120px 0 80px}
+.gallery-filter{display:flex;gap:2px;margin-bottom:40px;flex-wrap:wrap}
+.filter-btn{font-size:0.68rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;padding:12px 24px;border:1px solid rgba(255,255,255,0.1);color:rgba(245,240,232,0.5);background:transparent;cursor:pointer;transition:all var(--transition-fast);font-family:var(--sans)}
+.filter-btn:hover,.filter-btn.active{border-color:var(--gold);color:var(--gold);background:rgba(201,169,110,0.05)}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-bottom:100px}
+.gallery-item{position:relative;overflow:hidden;cursor:pointer}
+.gallery-item:nth-child(5n+1){grid-column:span 2;grid-row:span 2}
+.gallery-item:nth-child(5n+4){grid-column:span 2}
+.gallery-item-bg{width:100%;height:100%;min-height:240px;transition:transform 0.6s cubic-bezier(0.25,0.46,0.45,0.94)}
+.gallery-item:nth-child(5n+1) .gallery-item-bg{min-height:480px}
+.gallery-item:hover .gallery-item-bg{transform:scale(1.06)}
+.gallery-item-overlay{position:absolute;inset:0;background:rgba(11,11,11,0);display:flex;flex-direction:column;justify-content:flex-end;padding:24px;transition:background var(--transition)}
+.gallery-item:hover .gallery-item-overlay{background:rgba(11,11,11,0.5)}
+.gallery-item-cat{font-size:0.63rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);opacity:0;transform:translateY(8px);transition:all var(--transition)}
+.gallery-item:hover .gallery-item-cat{opacity:1;transform:translateY(0)}
+@media(max-width:768px){.gallery-grid{grid-template-columns:repeat(2,1fr)}.gallery-item:nth-child(5n+1),.gallery-item:nth-child(5n+4){grid-column:span 1;grid-row:span 1}.gallery-item-bg{min-height:200px!important}}
+
+/* SHOP */
+.shop-page{background:var(--black);padding-top:var(--nav-h);min-height:100vh}
+.shop-hero{padding:120px 0 80px;border-bottom:1px solid rgba(201,169,110,0.1)}
+.shop-cats{display:flex;gap:2px;margin-top:40px;flex-wrap:wrap}
+.shop-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;padding:80px 0}
+.product-card{background:var(--dark);display:flex;flex-direction:column;cursor:pointer;transition:background var(--transition-fast);position:relative;overflow:hidden}
+.product-card:hover{background:#1e1e1e}
+.product-img{aspect-ratio:3/4;background:var(--mid);position:relative;overflow:hidden}
+.product-img-bg{position:absolute;inset:0;transition:transform 0.6s cubic-bezier(0.25,0.46,0.45,0.94)}
+.product-card:hover .product-img-bg{transform:scale(1.05)}
+.product-badge{position:absolute;top:16px;left:16px;font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;padding:5px 12px;font-weight:600}
+.badge-new{background:var(--gold);color:var(--black)}
+.badge-popular{background:var(--black);color:var(--gold);border:1px solid var(--gold)}
+.product-info{padding:28px 28px 32px;flex:1;display:flex;flex-direction:column}
+.product-cat-label{font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;font-weight:600}
+.product-name{font-family:var(--serif);font-size:1.2rem;font-weight:300;color:var(--ivory);margin-bottom:10px;line-height:1.25}
+.product-desc{font-size:0.78rem;color:var(--text-light);line-height:1.6;flex:1;margin-bottom:24px}
+.product-footer{display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.06);padding-top:20px}
+.product-price{font-family:var(--serif);font-size:1.15rem;color:var(--gold);font-weight:400}
+.product-price small{font-size:0.7rem;color:var(--text-light);font-family:var(--sans)}
+.product-enquire{font-size:0.65rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);font-weight:600;display:flex;align-items:center;gap:6px;transition:gap var(--transition-fast)}
+.product-card:hover .product-enquire{gap:10px}
+.product-enquire::after{content:'→'}
+@media(max-width:960px){.shop-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.shop-grid{grid-template-columns:1fr}}
+
+/* CONTACT */
+.contact-page{background:var(--ivory);color:var(--black);padding-top:var(--nav-h);min-height:100vh}
+.contact-hero{padding:120px 0 80px;background:var(--black)}
+.contact-body{display:grid;grid-template-columns:1fr 1.2fr;min-height:600px}
+.contact-left{background:var(--ivory);padding:80px 60px;color:var(--black)}
+.contact-right{background:var(--charcoal);padding:80px 60px}
+.contact-info-group{margin-bottom:48px}
+.contact-info-title{font-size:0.65rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold-muted);font-weight:600;margin-bottom:16px}
+.contact-info-line{font-size:0.88rem;color:var(--text-mid);line-height:1.7}
+.contact-info-line a{color:var(--text-mid);transition:color var(--transition-fast)}
+.contact-info-line a:hover{color:var(--gold-muted)}
+.contact-action-btns{display:flex;flex-direction:column;gap:12px;margin-top:48px}
+.contact-action-btn{display:flex;align-items:center;gap:16px;padding:20px 24px;border:1px solid rgba(0,0,0,0.12);transition:all var(--transition-fast);cursor:pointer;color:var(--black);text-decoration:none}
+.contact-action-btn:hover{border-color:var(--gold-muted);background:rgba(156,122,69,0.05)}
+.contact-action-icon{font-size:1.2rem;flex-shrink:0}
+.contact-action-label{font-size:0.6rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-light);font-weight:600;margin-bottom:2px}
+.contact-action-value{font-size:0.88rem;font-weight:500;color:var(--black)}
+.contact-map{margin-top:48px;height:200px;background:var(--ivory-deep);border:1px solid rgba(0,0,0,0.08);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;cursor:pointer;transition:border-color var(--transition-fast);text-decoration:none}
+.contact-map:hover{border-color:var(--gold-muted)}
+.contact-map-icon{font-size:2rem}
+.contact-map-text{font-size:0.78rem;color:var(--text-mid);letter-spacing:0.06em}
+.contact-form-title{font-family:var(--serif);font-size:1.8rem;font-weight:300;color:var(--ivory);margin-bottom:8px}
+.contact-form-sub{font-size:0.82rem;color:var(--text-light);margin-bottom:40px;line-height:1.6}
+.contact-hours{margin-top:60px}
+.hours-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.hour-row{background:var(--dark);padding:16px 20px;display:flex;justify-content:space-between;align-items:center}
+.hour-day{font-size:0.8rem;color:rgba(245,240,232,0.7)}
+.hour-time{font-size:0.8rem;color:var(--gold)}
+.hour-row.today{background:rgba(201,169,110,0.08)}
+@media(max-width:960px){.contact-body{grid-template-columns:1fr}.contact-left,.contact-right{padding:60px 40px}}
+@media(max-width:600px){.contact-left,.contact-right{padding:48px 24px}.hours-grid{grid-template-columns:1fr}}
+
+/* FLOATING WHATSAPP */
+.wa-float{position:fixed;bottom:32px;right:32px;z-index:900;display:flex;flex-direction:column;align-items:flex-end;gap:12px}
+.wa-float-btn{width:56px;height:56px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,0.3);cursor:pointer;transition:transform var(--transition-fast),box-shadow var(--transition-fast)}
+.wa-float-btn:hover{transform:scale(1.08);box-shadow:0 6px 28px rgba(37,211,102,0.4)}
+.wa-float-btn svg{width:28px;height:28px;fill:white}
+.wa-float-tooltip{background:var(--charcoal);color:var(--ivory);font-size:0.75rem;padding:8px 16px;letter-spacing:0.06em;white-space:nowrap;border-left:2px solid var(--gold);opacity:0;transform:translateX(8px);transition:all var(--transition-fast);pointer-events:none}
+.wa-float:hover .wa-float-tooltip{opacity:1;transform:translateX(0)}
+.mobile-sticky{display:none;position:fixed;bottom:0;left:0;right:0;z-index:900;background:var(--black);border-top:1px solid rgba(201,169,110,0.2);padding:12px 20px;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.mobile-sticky-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:10px 8px;font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;font-weight:600;cursor:pointer;transition:color var(--transition-fast);text-decoration:none;color:rgba(245,240,232,0.6);font-family:var(--sans);border:none;background:none}
+.mobile-sticky-btn:hover{color:var(--gold)}
+.mobile-sticky-btn.primary{background:var(--gold);color:var(--black);font-weight:700}
+.mobile-sticky-btn.primary:hover{background:var(--gold-light);color:var(--black)}
+.mobile-sticky-btn .icon{font-size:1.1rem}
+@media(max-width:768px){.mobile-sticky{display:grid}.wa-float{bottom:90px;right:20px}.wa-float-tooltip{display:none}.wa-float-btn{width:48px;height:48px}}
+
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+</style>
+</head>
+<body>
+<!-- NAV -->
+<nav class="nav" id="mainNav" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav-inner">
+      <div class="nav-logo" onclick="navigateTo('home')" role="button" tabindex="0" aria-label="Hair'Riette Home">Hair<span class="accent">'</span>Riette</div>
+      <div class="nav-links" role="menubar">
+        <span class="nav-link active" onclick="navigateTo('home')" role="menuitem" tabindex="0">Home</span>
+        <span class="nav-link" onclick="navigateTo('about')" role="menuitem" tabindex="0">About</span>
+        <span class="nav-link" onclick="navigateTo('services')" role="menuitem" tabindex="0">Services</span>
+        <span class="nav-link" onclick="navigateTo('gallery')" role="menuitem" tabindex="0">Gallery</span>
+        <span class="nav-link" onclick="navigateTo('shop')" role="menuitem" tabindex="0">Shop</span>
+        <span class="nav-link" onclick="navigateTo('contact')" role="menuitem" tabindex="0">Contact</span>
+      </div>
+      <button class="nav-cta" onclick="openBooking(null)">Book Appointment</button>
+      <button class="nav-burger" id="navBurger" onclick="toggleMobileNav()" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<nav class="nav-mobile" id="mobileNav" role="dialog" aria-label="Mobile navigation" aria-modal="true">
+  <button class="nav-mobile-close" onclick="toggleMobileNav()" aria-label="Close menu">✕</button>
+  <span class="nav-link" onclick="navigateTo('home');toggleMobileNav()">Home</span>
+  <span class="nav-link" onclick="navigateTo('about');toggleMobileNav()">About</span>
+  <span class="nav-link" onclick="navigateTo('services');toggleMobileNav()">Services</span>
+  <span class="nav-link" onclick="navigateTo('gallery');toggleMobileNav()">Gallery</span>
+  <span class="nav-link" onclick="navigateTo('shop');toggleMobileNav()">Shop</span>
+  <span class="nav-link" onclick="navigateTo('contact');toggleMobileNav()">Contact</span>
+  <div class="nav-mobile-contact"><p>Brixton, London</p><a href="tel:07476812739">07476 812739</a></div>
+</nav>
+<!-- HOME PAGE -->
+<div class="page active" id="page-home">
+<section class="hero" aria-label="Hero">
+  <div class="hero-bg"></div>
+  <div class="hero-visual"></div>
+  <svg class="hero-strands" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs><style>.strand{stroke:#C9A96E;stroke-width:1;fill:none}</style></defs>
+    <path class="strand" d="M 800 -50 C 900 200 750 400 850 650 C 950 900 1000 1000 1100 1200" opacity="0.6"/>
+    <path class="strand" d="M 850 -50 C 950 250 800 450 900 700 C 1000 950 1050 1050 1150 1250" opacity="0.4"/>
+    <path class="strand" d="M 750 -50 C 850 300 700 500 800 750 C 900 1000 950 1100 1050 1300" opacity="0.3"/>
+    <path class="strand" d="M 1000 -50 C 1100 200 950 400 1050 650 C 1150 900 1200 1000 1300 1200" opacity="0.25"/>
+    <path class="strand" d="M 950 0 C 1000 300 880 500 960 750 C 1040 1000 1080 1100 1200 1300" opacity="0.2"/>
+  </svg>
+  <div class="hero-overlay"></div>
+  <div class="hero-gold-band" aria-hidden="true"></div>
+  <div class="hero-location" aria-hidden="true">Brixton · London · SW9</div>
+  <div class="hero-content">
+    <div class="hero-eyebrow"><span class="gold-line"></span><span class="label gold-text">Luxury Wig & Afro Hair Artistry</span></div>
+    <h1 class="display-xl hero-title ivory-text">Where Hair<br>Becomes<br><em style="font-style:italic;color:var(--gold)">Art.</em></h1>
+    <p class="hero-sub">Wig manufacturing, customisation &amp; installation — Brixton, London</p>
+    <div class="hero-ctas">
+      <button class="btn btn-gold" onclick="openBooking(null)"><span>Book Your Appointment</span></button>
+      <button class="btn btn-outline-ivory" onclick="navigateTo('services')"><span>Explore Services</span></button>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true"><div class="hero-scroll-line"></div><span>Scroll</span></div>
+</section>
+
+<!-- INTRO -->
+<section class="intro">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-left">
+        <div class="intro-image-main" role="img" aria-label="Hair'Riette premium wig artistry">
+          <svg viewBox="0 0 400 533" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;position:absolute" aria-hidden="true">
+            <rect width="400" height="533" fill="#EDE7D9"/>
+            <path d="M 200 80 C 280 80 340 140 340 220 C 340 320 280 380 260 440 C 250 470 240 500 230 520 L 200 520 C 195 500 185 470 180 440 C 160 380 80 320 80 220 C 80 140 120 80 200 80 Z" fill="none" stroke="#C9A96E" stroke-width="1.5" opacity="0.4"/>
+            <path d="M 200 100 C 270 100 320 155 320 220 C 320 310 270 365 252 425 C 244 452 235 480 226 505 L 200 505" fill="none" stroke="#C9A96E" stroke-width="1" opacity="0.25"/>
+            <line x1="160" y1="200" x2="240" y2="200" stroke="#C9A96E" stroke-width="0.5" opacity="0.2"/>
+            <line x1="200" y1="160" x2="200" y2="240" stroke="#C9A96E" stroke-width="0.5" opacity="0.2"/>
+            <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="9" letter-spacing="6" fill="#9C7A45" opacity="0.4">HAIR'RIETTE</text>
+          </svg>
+        </div>
+      </div>
+      <div class="intro-right">
+        <div class="section-label"><span class="gold-line"></span><span class="label" style="color:var(--gold-muted)">Brixton, London</span></div>
+        <h2 class="display-md intro-title">More than hair.<br><em>It's your crown.</em></h2>
+        <p class="body-lg intro-body">Hair'Riette is a specialist Afro hair and wig studio in Brixton, London. We craft bespoke wigs, provide expert customisation and installation, and deliver professional hair services for men and women of all hair types.</p>
+        <p class="body intro-body">From first consultation to final styling, every service is tailored to you — your face shape, your style, your signature.</p>
+        <div class="intro-stats">
+          <div><div class="stat-number">4.9★</div><div class="stat-label">Google Rating</div></div>
+          <div><div class="stat-number">19+</div><div class="stat-label">Reviews</div></div>
+          <div><div class="stat-number">100%</div><div class="stat-label">Personalised</div></div>
+        </div>
+        <button class="btn btn-outline-dark" onclick="navigateTo('about')"><span>Discover Hair'Riette</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services-home">
+  <div class="container">
+    <div class="services-header">
+      <div>
+        <div class="section-label"><span class="gold-line"></span><span class="label gold-text">What We Do</span></div>
+        <h2 class="display-md ivory-text">Signature Services</h2>
+      </div>
+      <button class="btn btn-outline-gold" onclick="navigateTo('services')"><span>All Services</span></button>
+    </div>
+    <div class="services-grid-home" id="homeServicesGrid"></div>
+  </div>
+</section>
+
+<!-- WIG EXPERIENCE -->
+<section class="wig-experience">
+  <div class="container">
+    <div class="wig-exp-grid">
+      <div>
+        <div class="section-label"><span class="gold-line" style="background:var(--gold-muted)"></span><span class="label" style="color:var(--gold-muted)">Wig Artistry</span></div>
+        <h2 class="display-md" style="color:var(--black);margin-bottom:28px">Your wig.<br>Your fit.<br>Your <em style="font-style:italic;color:var(--gold-muted)">signature.</em></h2>
+        <p class="body-lg" style="color:var(--text-mid);max-width:460px;margin-bottom:16px">From wig construction and customisation to flawless installation and final styling, Hair'Riette creates personalised looks designed around each client.</p>
+        <p class="body" style="color:var(--text-light);max-width:440px;margin-bottom:48px">Every wig is crafted with precision — the right cap construction, the right density, the right parting — because the difference between a wig and your hair is the detail.</p>
+        <div class="wig-process">
+          <div class="wig-process-item"><span class="wig-process-num">I</span><div class="wig-process-text"><h4>Consultation</h4><p>Face shape analysis, style goals and material selection</p></div></div>
+          <div class="wig-process-item"><span class="wig-process-num">II</span><div class="wig-process-text"><h4>Construction</h4><p>Hand-crafted to your measurements and preferences</p></div></div>
+          <div class="wig-process-item"><span class="wig-process-num">III</span><div class="wig-process-text"><h4>Customisation</h4><p>Colouring, cutting, tinting and personalisation</p></div></div>
+          <div class="wig-process-item"><span class="wig-process-num">IV</span><div class="wig-process-text"><h4>Installation & Styling</h4><p>Secure, seamless installation with final editorial styling</p></div></div>
+        </div>
+        <button class="btn btn-outline-dark" onclick="navigateTo('services')" style="margin-top:8px"><span>Explore Wig Services</span></button>
+      </div>
+      <div style="position:relative">
+        <div class="wig-exp-image" role="img" aria-label="Custom wig installation">
+          <svg viewBox="0 0 500 750" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;position:absolute" aria-hidden="true">
+            <rect width="500" height="750" fill="#EDE7D9"/>
+            <path d="M 250 80 C 380 80 450 180 450 300 C 450 500 380 600 360 680 C 345 730 300 750 250 750 C 200 750 155 730 140 680 C 120 600 50 500 50 300 C 50 180 120 80 250 80 Z" fill="none" stroke="#C9A96E" stroke-width="2" opacity="0.35"/>
+            <path d="M 180 200 C 200 350 195 500 185 650" stroke="#9C7A45" stroke-width="0.7" fill="none" opacity="0.25"/>
+            <path d="M 250 160 C 265 310 262 460 255 610" stroke="#9C7A45" stroke-width="0.7" fill="none" opacity="0.25"/>
+            <path d="M 320 200 C 332 350 328 500 318 650" stroke="#9C7A45" stroke-width="0.7" fill="none" opacity="0.2"/>
+            <line x1="250" y1="80" x2="250" y2="160" stroke="#C9A96E" stroke-width="1.5" opacity="0.5"/>
+          </svg>
+        </div>
+        <div class="wig-exp-float">
+          <div class="wig-exp-float-num">✦</div>
+          <div class="wig-exp-float-text">Bespoke<br>Craftsmanship</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wig-exp-bg-text" aria-hidden="true">WIG</div>
+</section>
+
+<!-- BEFORE/AFTER -->
+<section class="before-after">
+  <div class="container">
+    <div class="ba-header">
+      <div class="section-label"><span class="gold-line"></span><span class="label gold-text">Transformations</span></div>
+      <h2 class="display-md ivory-text">The transformation<br>speaks for itself.</h2>
+    </div>
+    <div class="ba-slider-wrap">
+      <div class="ba-panel ba-before">
+        <div class="ba-panel-bg ba-before-bg">
+          <svg viewBox="0 0 450 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%" aria-hidden="true">
+            <rect width="450" height="600" fill="#1a1610"/>
+            <path d="M 225 100 C 300 100 360 160 360 240 C 360 340 300 400 290 460 C 280 510 260 560 245 600 L 205 600 C 190 560 170 510 160 460 C 150 400 90 340 90 240 C 90 160 150 100 225 100 Z" fill="none" stroke="#9C7A45" stroke-width="1.5" opacity="0.3"/>
+          </svg>
+        </div>
+        <span class="ba-label">Before</span>
+        <p class="ba-transform-note">Natural State</p>
+      </div>
+      <div class="ba-panel ba-after">
+        <div class="ba-panel-bg ba-after-bg">
+          <svg viewBox="0 0 450 600" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%" aria-hidden="true">
+            <rect width="450" height="600" fill="#131a0d"/>
+            <path d="M 225 60 C 340 60 420 140 420 240 C 420 380 360 460 350 530 C 340 570 300 600 250 600 L 200 600 C 150 600 110 570 100 530 C 90 460 30 380 30 240 C 30 140 110 60 225 60 Z" fill="none" stroke="#C9A96E" stroke-width="2" opacity="0.45"/>
+            <path d="M 100 200 C 120 380 115 500 105 600" stroke="#C9A96E" stroke-width="0.8" fill="none" opacity="0.3"/>
+            <path d="M 225 140 C 238 320 235 445 228 545" stroke="#C9A96E" stroke-width="0.8" fill="none" opacity="0.3"/>
+            <path d="M 340 200 C 352 380 348 500 338 600" stroke="#C9A96E" stroke-width="0.8" fill="none" opacity="0.2"/>
+            <path d="M 280 100 C 350 150 380 220 370 300" stroke="#D4B57A" stroke-width="1.5" fill="none" opacity="0.3"/>
+            <line x1="225" y1="60" x2="225" y2="120" stroke="#C9A96E" stroke-width="2" opacity="0.6"/>
+          </svg>
+        </div>
+        <span class="ba-label">After</span>
+        <p class="ba-transform-note">Hair'Riette Transformation</p>
+      </div>
+    </div>
+    <div style="margin-top:48px">
+      <p class="body" style="color:rgba(245,240,232,0.4);margin-bottom:24px">See our full portfolio of transformations — wigs, braids, installations and styling.</p>
+      <button class="btn btn-outline-gold" onclick="navigateTo('gallery')"><span>View Gallery</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <div class="container">
+    <div class="testimonials-header">
+      <div class="section-label" style="justify-content:center"><span class="gold-line"></span><span class="label gold-text">Client Reviews</span><span class="gold-line"></span></div>
+      <h2 class="display-md ivory-text">What clients say</h2>
+      <div class="rating-row" style="justify-content:center;margin-top:16px"><div class="rating-stars">★★★★★</div><span class="rating-count">4.9 on Google · 19 reviews</span></div>
+    </div>
+    <div class="testimonials-carousel" id="testimonialsGrid"></div>
+    <div class="testimonials-cta">
+      <a href="https://g.page/r/review" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold"><span>View All Reviews on Google</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL -->
+<section class="social-section">
+  <div class="container">
+    <div class="social-header">
+      <div class="section-label" style="justify-content:center"><span class="gold-line"></span><span class="label gold-text">Follow the Look</span><span class="gold-line"></span></div>
+      <h2 class="display-md ivory-text">@hairriette_officiel</h2>
+      <p class="body" style="color:var(--text-light);margin-top:16px">Wigs · Braids · Transformations · Brixton, London</p>
+    </div>
+    <div class="social-grid" id="socialGrid"></div>
+    <div class="social-handles">
+      <a href="https://facebook.com/HairRietteOffice1" target="_blank" rel="noopener noreferrer" class="social-handle-link" aria-label="Facebook">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        Facebook
+      </a>
+      <a href="https://www.tiktok.com/@hairriette" target="_blank" rel="noopener noreferrer" class="social-handle-link" aria-label="TikTok">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+        TikTok
+      </a>
+      <a href="https://www.instagram.com/hairriette_officiel" target="_blank" rel="noopener noreferrer" class="social-handle-link" aria-label="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final-cta">
+  <div class="final-cta-bg" aria-hidden="true"></div>
+  <div class="container"><div class="final-cta-content">
+    <div class="section-label" style="justify-content:center;margin-bottom:24px"><span class="gold-line" style="background:var(--gold-muted)"></span><span class="label" style="color:var(--gold-muted)">Ready?</span><span class="gold-line" style="background:var(--gold-muted)"></span></div>
+    <h2 class="display-lg">Ready for your<br>next look?</h2>
+    <p class="body-lg">From custom wigs to signature styling, let Hair'Riette create a look made for you.</p>
+    <div class="final-cta-btns">
+      <button class="btn btn-gold" onclick="openBooking(null)"><span>Book an Appointment</span></button>
+      <button class="btn btn-outline-dark" onclick="navigateTo('contact')"><span>Contact Us</span></button>
+    </div>
+  </div></div>
+</section>
+</div><!-- /page-home -->
+<!-- ABOUT PAGE -->
+<div class="page" id="page-about">
+<div class="page-hero-dark">
+  <div class="container">
+    <div class="page-hero-eyebrow"><span class="gold-line"></span><span class="label gold-text">Our Story</span></div>
+    <h1 class="display-lg ivory-text" style="margin-bottom:28px">The art<br>behind<br><em style="font-style:italic;color:var(--gold)">the craft.</em></h1>
+    <p class="body-lg" style="color:rgba(245,240,232,0.65);max-width:600px">Hair'Riette is a professional Afro hair and wig specialist in Brixton, London. Expert care for men and women of all ethnicities and hair types.</p>
+  </div>
+</div>
+
+<section class="about-story">
+  <div class="container">
+    <div class="about-story-grid">
+      <div>
+        <div class="about-story-image" role="img" aria-label="Hair'Riette studio">
+          <svg viewBox="0 0 400 533" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;position:absolute" aria-hidden="true">
+            <rect width="400" height="533" fill="#EDE7D9"/>
+            <path d="M 200 60 C 320 60 390 150 390 270 C 390 430 320 510 310 560 L 200 560 C 190 510 80 430 80 270 C 80 150 80 60 200 60 Z" fill="none" stroke="#C9A96E" stroke-width="1.5" opacity="0.3"/>
+            <path d="M 160 180 C 168 320 163 430 156 533" stroke="#9C7A45" stroke-width="0.8" fill="none" opacity="0.25"/>
+            <path d="M 200 150 C 208 290 204 400 197 510" stroke="#9C7A45" stroke-width="0.8" fill="none" opacity="0.2"/>
+            <path d="M 240 180 C 248 320 243 430 236 533" stroke="#9C7A45" stroke-width="0.8" fill="none" opacity="0.2"/>
+            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="120" font-weight="300" fill="#C9A96E" opacity="0.06">R</text>
+          </svg>
+        </div>
+        <div class="about-story-image-2" role="img" aria-label="Hair'Riette detail">
+          <svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%" aria-hidden="true">
+            <rect width="260" height="260" fill="#D4B8A0"/>
+            <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="80" font-weight="300" fill="#0B0B0B" opacity="0.12">✦</text>
+            <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" font-family="Manrope,sans-serif" font-size="7" letter-spacing="4" fill="#0B0B0B" opacity="0.3">BRIXTON</text>
+          </svg>
+        </div>
+      </div>
+      <div class="about-story-right">
+        <div class="section-label"><span class="gold-line" style="background:var(--gold-muted)"></span><span class="label" style="color:var(--gold-muted)">Our Philosophy</span></div>
+        <h3>Hair is personal.<br>We treat it that way.</h3>
+        <p class="body" style="color:var(--text-mid);margin-bottom:20px">Hair'Riette is a professional hair salon specialising in expert care for men and women of all ethnicities and hair types. Based in Brixton Plaza, we offer wig restoration, custom wig design, premium wig sales, haircuts, braids, cornrows, knotless and box braids.</p>
+        <p class="body" style="color:var(--text-mid);margin-bottom:20px">We believe every client deserves a service that is completely personalised — from the first conversation about your desired look to the final touch of styling. Whether you come for a custom wig or a set of braids, the standard is the same: exceptional.</p>
+        <p class="body" style="color:var(--text-mid);margin-bottom:40px">Located in the heart of Brixton, we serve clients from across London and beyond who are looking for quality they can trust and a result that is entirely their own.</p>
+        <div class="about-values">
+          <div class="section-label" style="margin-bottom:24px"><span class="gold-line" style="background:var(--gold-muted)"></span><span class="label" style="color:var(--gold-muted)">Our Approach</span></div>
+          <div class="about-value-item"><span class="about-value-num">I</span><div class="about-value-text"><h4>Precision Craftsmanship</h4><p>Every wig, every braid, every style is executed with expert technique and attention to detail.</p></div></div>
+          <div class="about-value-item"><span class="about-value-num">II</span><div class="about-value-text"><h4>Total Personalisation</h4><p>No two clients are the same. We design around your face, your lifestyle and your vision.</p></div></div>
+          <div class="about-value-item"><span class="about-value-num">III</span><div class="about-value-text"><h4>Reliability</h4><p>Very reliable, never cancelled — we respect your time as much as your hair.</p></div></div>
+          <div class="about-value-item"><span class="about-value-num">IV</span><div class="about-value-text"><h4>Inclusive Expertise</h4><p>Men, women, all hair types, all ethnicities — professional care for everyone.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-why">
+  <div class="container">
+    <div class="section-label"><span class="gold-line"></span><span class="label gold-text">Why Clients Choose Us</span></div>
+    <h2 class="display-md ivory-text" style="max-width:600px">The Hair'Riette difference</h2>
+    <div class="about-why-grid" id="whyGrid"></div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="final-cta-bg" aria-hidden="true"></div>
+  <div class="container"><div class="final-cta-content">
+    <h2 class="display-md">Ready to begin?</h2>
+    <p class="body-lg">Book a consultation and let us create your signature look.</p>
+    <div class="final-cta-btns">
+      <button class="btn btn-gold" onclick="openBooking(null)"><span>Book Now</span></button>
+      <button class="btn btn-outline-dark" onclick="navigateTo('services')"><span>Our Services</span></button>
+    </div>
+  </div></div>
+</section>
+</div><!-- /page-about -->
+<!-- SERVICES PAGE -->
+<div class="page" id="page-services">
+<div class="services-page">
+  <div class="services-page-hero">
+    <div class="container">
+      <div class="page-hero-eyebrow"><span class="gold-line"></span><span class="label gold-text">Services & Booking</span></div>
+      <h1 class="display-lg ivory-text" style="margin-bottom:24px">Our Services</h1>
+      <p class="body-lg" style="color:rgba(245,240,232,0.55);max-width:560px;margin-bottom:32px">Select a service and book your appointment via email or WhatsApp. All services are personalised to you.</p>
+      <div class="rating-row"><div class="rating-stars">★★★★★</div><span class="rating-count" style="color:var(--text-light)">4.9 · 19 Google reviews</span></div>
+    </div>
+  </div>
+  <div class="services-categories container" id="servicesContainer"></div>
+</div>
+</div><!-- /page-services -->
+
+<!-- GALLERY PAGE -->
+<div class="page" id="page-gallery">
+<div class="gallery-page">
+  <div class="gallery-hero container">
+    <div class="page-hero-eyebrow" style="margin-bottom:24px"><span class="gold-line"></span><span class="label gold-text">Lookbook</span></div>
+    <h1 class="display-lg ivory-text" style="margin-bottom:24px">Gallery</h1>
+    <p class="body-lg" style="color:rgba(245,240,232,0.55);max-width:500px">Wigs, braids, installations and transformations from the Hair'Riette studio.</p>
+  </div>
+  <div class="container">
+    <div class="gallery-filter" id="galleryFilter" role="group" aria-label="Gallery filters"></div>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </div>
+</div>
+</div><!-- /page-gallery -->
+
+<!-- SHOP PAGE -->
+<div class="page" id="page-shop">
+<div class="shop-page">
+  <div class="shop-hero container">
+    <div class="page-hero-eyebrow" style="margin-bottom:24px"><span class="gold-line"></span><span class="label gold-text">Shop</span></div>
+    <h1 class="display-lg ivory-text" style="margin-bottom:24px">Wigs &amp; Products</h1>
+    <p class="body-lg" style="color:rgba(245,240,232,0.55);max-width:520px;margin-bottom:32px">Browse our custom wigs, ready-to-wear pieces and professional hair products. Enquire via WhatsApp or email for pricing and availability.</p>
+    <div class="shop-cats" id="shopCats" role="group" aria-label="Shop categories"></div>
+  </div>
+  <div class="container"><div class="shop-grid" id="shopGrid"></div></div>
+</div>
+</div><!-- /page-shop -->
+
+<!-- CONTACT PAGE -->
+<div class="page" id="page-contact">
+<div class="contact-page">
+  <div class="contact-hero">
+    <div class="container">
+      <div class="page-hero-eyebrow" style="margin-bottom:24px"><span class="gold-line"></span><span class="label gold-text">Get In Touch</span></div>
+      <h1 class="display-lg ivory-text" style="margin-bottom:24px">Contact Us</h1>
+      <p class="body-lg" style="color:rgba(245,240,232,0.55);max-width:500px">Visit us in Brixton, call, WhatsApp or send us a message.</p>
+    </div>
+  </div>
+  <div class="contact-body">
+    <div class="contact-left">
+      <div class="contact-info-group">
+        <p class="contact-info-title">Address</p>
+        <p class="contact-info-line">Brixton Plaza<br>Unit 33, 422 Brixton Road<br>London SW9 7AE<br>United Kingdom</p>
+      </div>
+      <div class="contact-info-group">
+        <p class="contact-info-title">Phone</p>
+        <p class="contact-info-line"><a href="tel:07476812739">07476 812739</a></p>
+      </div>
+      <div class="contact-info-group">
+        <p class="contact-info-title">Social</p>
+        <p class="contact-info-line">
+          <a href="https://facebook.com/HairRietteOffice1" target="_blank" rel="noopener noreferrer">Facebook: Hair'Riette officiel</a><br>
+          <a href="https://www.instagram.com/hairriette_officiel" target="_blank" rel="noopener noreferrer">Instagram: @hairriette_officiel</a><br>
+          <a href="https://www.tiktok.com/@hairriette" target="_blank" rel="noopener noreferrer">TikTok: @hairriette</a>
+        </p>
+      </div>
+      <div class="contact-action-btns">
+        <a href="tel:07476812739" class="contact-action-btn" aria-label="Call Hair'Riette">
+          <span class="contact-action-icon">📞</span>
+          <div><div class="contact-action-label">Call Us</div><div class="contact-action-value">07476 812739</div></div>
+        </a>
+        <a href="https://wa.me/447476812739?text=Hello%20Hair'Riette%2C%20I'd%20like%20to%20get%20in%20touch." target="_blank" rel="noopener noreferrer" class="contact-action-btn" style="background:#f0faf3;border-color:rgba(37,211,102,0.2)" aria-label="WhatsApp Hair'Riette">
+          <span class="contact-action-icon">💬</span>
+          <div><div class="contact-action-label">WhatsApp</div><div class="contact-action-value">Message Us Now</div></div>
+        </a>
+        <a href="mailto:CONFIGURE_ME@hairriette.co.uk" class="contact-action-btn" aria-label="Email Hair'Riette">
+          <span class="contact-action-icon">✉</span>
+          <div><div class="contact-action-label">Email</div><div class="contact-action-value">Send a Message</div></div>
+        </a>
+        <a href="https://www.google.com/maps/search/Brixton+Plaza+Unit+33+422+Brixton+Road+London+SW9+7AE" target="_blank" rel="noopener noreferrer" class="contact-action-btn" aria-label="Get directions">
+          <span class="contact-action-icon">📍</span>
+          <div><div class="contact-action-label">Directions</div><div class="contact-action-value">Brixton Plaza, SW9</div></div>
+        </a>
+      </div>
+      <a href="https://www.google.com/maps/search/Brixton+Plaza+Unit+33+422+Brixton+Road+London+SW9+7AE" target="_blank" rel="noopener noreferrer" class="contact-map" aria-label="Open Google Maps">
+        <span class="contact-map-icon">🗺</span>
+        <span class="contact-map-text">Brixton Plaza · Unit 33 · SW9 7AE</span>
+        <span class="label" style="color:var(--gold-muted);font-size:0.6rem">Open in Google Maps</span>
+      </a>
+    </div>
+    <div class="contact-right">
+      <h2 class="contact-form-title">Send a Message</h2>
+      <p class="contact-form-sub">Fill in the form and we'll get back to you. For a faster response, WhatsApp us directly.</p>
+      <form class="contact-form" id="contactForm" onsubmit="submitContactForm(event)" novalidate>
+        <div class="form-row">
+          <div class="form-group"><label class="form-label" for="cf-name">Full Name *</label><input type="text" id="cf-name" class="form-input" placeholder="Your name" required aria-required="true"></div>
+          <div class="form-group"><label class="form-label" for="cf-phone">Phone</label><input type="tel" id="cf-phone" class="form-input" placeholder="07xxx xxx xxx"></div>
+        </div>
+        <div class="form-group"><label class="form-label" for="cf-email">Email *</label><input type="email" id="cf-email" class="form-input" placeholder="your@email.com" required aria-required="true"></div>
+        <div class="form-group">
+          <label class="form-label" for="cf-subject">Subject</label>
+          <select id="cf-subject" class="form-input" style="background:#1A1A1A;color:var(--ivory)">
+            <option style="background:#1A1A1A">Booking Enquiry</option>
+            <option style="background:#1A1A1A">Custom Wig Enquiry</option>
+            <option style="background:#1A1A1A">Product Enquiry</option>
+            <option style="background:#1A1A1A">General Question</option>
+          </select>
+        </div>
+        <div class="form-group"><label class="form-label" for="cf-msg">Message *</label><textarea id="cf-msg" class="form-input" rows="5" placeholder="How can we help you?" required aria-required="true" style="resize:vertical"></textarea></div>
+        <button type="submit" class="booking-btn-email" style="margin-top:8px">Send Message</button>
+      </form>
+      <div class="contact-hours">
+        <div class="section-label" style="margin-bottom:24px"><span class="gold-line"></span><span class="label gold-text">Opening Hours</span></div>
+        <div class="hours-grid" id="hoursGrid"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!-- /page-contact -->
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">Hair<span class="accent">'</span>Riette</div>
+        <p class="footer-tagline">Luxury Afro hair and wig artistry. Wig manufacturing, customisation, installation and professional hair services. Brixton, London.</p>
+        <div class="footer-social">
+          <a href="https://facebook.com/HairRietteOffice1" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Facebook">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@hairriette" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="TikTok">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+          </a>
+          <a href="https://www.instagram.com/hairriette_officiel" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://wa.me/447476812739" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="WhatsApp">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.5 2C6.262 2 2 6.262 2 11.5c0 1.826.499 3.53 1.363 4.993L2 22l5.635-1.346A9.45 9.45 0 0 0 11.5 21C16.738 21 21 16.738 21 11.5S16.738 2 11.5 2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-col-title">Navigation</p>
+        <div class="footer-links">
+          <a onclick="navigateTo('home')">Home</a>
+          <a onclick="navigateTo('about')">About</a>
+          <a onclick="navigateTo('services')">Services</a>
+          <a onclick="navigateTo('gallery')">Gallery</a>
+          <a onclick="navigateTo('shop')">Shop</a>
+          <a onclick="navigateTo('contact')">Contact</a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-col-title">Services</p>
+        <div class="footer-links">
+          <a onclick="navigateTo('services')">Wig Manufacturing</a>
+          <a onclick="navigateTo('services')">Custom Wigs</a>
+          <a onclick="navigateTo('services')">Wig Installation</a>
+          <a onclick="navigateTo('services')">Braids & Cornrows</a>
+          <a onclick="navigateTo('services')">Weaves</a>
+          <a onclick="navigateTo('services')">Men's Hair</a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-col-title">Contact</p>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">📍</span>
+          <div class="footer-contact-text">Unit 33, 422 Brixton Road<br>Brixton Plaza, London SW9 7AE</div>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">📞</span>
+          <div class="footer-contact-text"><a href="tel:07476812739">07476 812739</a></div>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">💬</span>
+          <div class="footer-contact-text"><a href="https://wa.me/447476812739" target="_blank" rel="noopener noreferrer">WhatsApp Us</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Hair'Riette · Afro Hair'Riette Brixton Hairdressers</p>
+      <div class="footer-legal">
+        <a href="#" onclick="event.preventDefault()">Privacy Policy</a>
+        <a href="#" onclick="event.preventDefault()">Cookie Policy</a>
+        <a href="#" onclick="event.preventDefault()">Terms</a>
+      </div>
+      <p class="footer-credit">Website by Business Digital Growth · AJC CORP LTD</p>
+    </div>
+  </div>
+</footer>
+
+<!-- BOOKING MODAL -->
+<div class="modal-overlay" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" onclick="handleModalOverlayClick(event)">
+  <div class="modal">
+    <div class="modal-header">
+      <button class="modal-close" onclick="closeBooking()" aria-label="Close">✕</button>
+      <h2 class="modal-title" id="modalTitle">Book an Appointment</h2>
+      <p class="modal-sub">Fill in your details and send via email or WhatsApp.</p>
+    </div>
+    <div class="modal-body">
+      <div class="form-row">
+        <div class="form-group"><label class="form-label" for="bk-name">Full Name *</label><input type="text" id="bk-name" class="form-input" placeholder="Your full name" required aria-required="true"></div>
+        <div class="form-group"><label class="form-label" for="bk-phone">Phone *</label><input type="tel" id="bk-phone" class="form-input" placeholder="07xxx xxx xxx" required aria-required="true"></div>
+      </div>
+      <div class="form-group"><label class="form-label" for="bk-email">Email</label><input type="email" id="bk-email" class="form-input" placeholder="your@email.com"></div>
+      <div class="form-group">
+        <label class="form-label" for="bk-service">Service *</label>
+        <select id="bk-service" class="form-input" style="background:#1A1A1A;color:var(--ivory)" required aria-required="true">
+          <option value="" style="background:#1A1A1A">Select a service…</option>
+          <optgroup label="— Wig Services —" style="background:#1A1A1A">
+            <option style="background:#1A1A1A">Wig Manufacturing</option>
+            <option style="background:#1A1A1A">Custom Wig Design</option>
+            <option style="background:#1A1A1A">Wig Customisation</option>
+            <option style="background:#1A1A1A">Wig Installation</option>
+            <option style="background:#1A1A1A">Wig Revamp / Restyling</option>
+            <option style="background:#1A1A1A">Wig Styling</option>
+          </optgroup>
+          <optgroup label="— Hair Services —" style="background:#1A1A1A">
+            <option style="background:#1A1A1A">Braids</option>
+            <option style="background:#1A1A1A">Cornrows</option>
+            <option style="background:#1A1A1A">Ghana Braids</option>
+            <option style="background:#1A1A1A">Knotless Braids</option>
+            <option style="background:#1A1A1A">Box Braids</option>
+            <option style="background:#1A1A1A">Weaves</option>
+            <option style="background:#1A1A1A">Natural Hair</option>
+            <option style="background:#1A1A1A">Hair Colouring</option>
+            <option style="background:#1A1A1A">Men's Hair</option>
+            <option style="background:#1A1A1A">General Enquiry</option>
+          </optgroup>
+        </select>
+      </div>
+      <div class="form-row">
+        <div class="form-group"><label class="form-label" for="bk-date">Preferred Date</label><input type="date" id="bk-date" class="form-input" style="color-scheme:dark"></div>
+        <div class="form-group">
+          <label class="form-label" for="bk-time">Preferred Time</label>
+          <select id="bk-time" class="form-input" style="background:#1A1A1A;color:var(--ivory)">
+            <option style="background:#1A1A1A">Any time</option>
+            <option style="background:#1A1A1A">Morning (9am–12pm)</option>
+            <option style="background:#1A1A1A">Afternoon (12pm–4pm)</option>
+            <option style="background:#1A1A1A">Evening (4pm–9pm)</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group"><label class="form-label" for="bk-notes">Additional Info</label><textarea id="bk-notes" class="form-input" rows="3" placeholder="Hair type, desired look, references…" style="resize:vertical"></textarea></div>
+    </div>
+    <div class="modal-actions">
+      <p class="modal-action-title">Send your booking request:</p>
+      <button class="booking-btn-email" onclick="submitByEmail()" type="button">✉ Send by Email</button>
+      <div class="booking-divider">— or —</div>
+      <button class="booking-btn-wa" onclick="submitByWhatsApp()" type="button">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.5 2C6.262 2 2 6.262 2 11.5c0 1.826.499 3.53 1.363 4.993L2 22l5.635-1.346A9.45 9.45 0 0 0 11.5 21C16.738 21 21 16.738 21 11.5S16.738 2 11.5 2z"/></svg>
+        Book via WhatsApp
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- FLOATING WHATSAPP -->
+<div class="wa-float" role="complementary" aria-label="Quick contact">
+  <div class="wa-float-tooltip">Chat on WhatsApp</div>
+  <a href="https://wa.me/447476812739?text=Hello%20Hair'Riette%2C%20I'd%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="WhatsApp Hair'Riette">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M11.5 2C6.262 2 2 6.262 2 11.5c0 1.826.499 3.53 1.363 4.993L2 22l5.635-1.346A9.45 9.45 0 0 0 11.5 21C16.738 21 21 16.738 21 11.5S16.738 2 11.5 2z"/></svg>
+  </a>
+</div>
+
+<!-- MOBILE STICKY BAR -->
+<div class="mobile-sticky" role="toolbar" aria-label="Quick actions">
+  <button class="mobile-sticky-btn primary" onclick="openBooking(null)" aria-label="Book appointment"><span class="icon">📅</span>Book</button>
+  <a href="https://wa.me/447476812739" target="_blank" rel="noopener noreferrer" class="mobile-sticky-btn" aria-label="WhatsApp"><span class="icon">💬</span>WhatsApp</a>
+  <a href="tel:07476812739" class="mobile-sticky-btn" aria-label="Call us"><span class="icon">📞</span>Call</a>
+</div>
+<script>
+/* =============================================
+   CENTRAL BUSINESS CONFIGURATION
+   Change this object to customise for any client
+   ============================================= */
+const BUSINESS = {
+  name: "Afro Hair'Riette Brixton Hairdressers",
+  shortName: "Hair'Riette",
+  tagline: "Luxury Wig & Afro Hair Artistry",
+  contact: {
+    phone: "07476812739",
+    phoneDisplay: "07476 812739",
+    whatsapp: "447476812739",
+    email: "CONFIGURE_ME@hairriette.co.uk"
+  },
+  social: {
+    facebook: "https://facebook.com/HairRietteOffice1",
+    instagram: "https://www.instagram.com/hairriette_officiel",
+    tiktok: "https://www.tiktok.com/@hairriette"
+  },
+  openingHours: [
+    { day: "Monday",    time: "9:00 am – 9:00 pm" },
+    { day: "Tuesday",   time: "9:00 am – 9:00 pm" },
+    { day: "Wednesday", time: "9:00 am – 9:00 pm" },
+    { day: "Thursday",  time: "9:00 am – 9:00 pm" },
+    { day: "Friday",    time: "9:00 am – 9:00 pm" },
+    { day: "Saturday",  time: "9:00 am – 9:00 pm" },
+    { day: "Sunday",    time: "10:00 am – 6:00 pm" }
+  ],
+  homeServices: [
+    { name: "Wig Making", description: "Fully bespoke wigs built to your exact specifications from scratch.", bgClass: "svc-bg-1" },
+    { name: "Wig Installation", description: "Secure, seamless and natural-looking wig installation by specialists.", bgClass: "svc-bg-2" },
+    { name: "Wig Customisation", description: "Professional colouring, cutting and personalisation of your wig.", bgClass: "svc-bg-3" },
+    { name: "Braids & Cornrows", description: "Ghana braids, knotless, box braids and intricate cornrow designs.", bgClass: "svc-bg-4" },
+    { name: "Weaves", description: "Sew-in, glue-in and quick weave in all textures and lengths.", bgClass: "svc-bg-5" },
+    { name: "Hair Styling", description: "Blow-outs, natural styling and all professional finishing services.", bgClass: "svc-bg-6" }
+  ],
+  services: [
+    {
+      category: "Wig Services",
+      items: [
+        { name: "Wig Manufacturing", description: "Fully bespoke wigs built from scratch to your exact specifications. Cap construction, hair selection, density and length all personalised to you.", price: "From POA", badge: "Signature" },
+        { name: "Custom Wig Design", description: "Work with our specialist to design a completely unique wig — colour, texture, style and construction — created around your face and vision.", price: "From POA", badge: null },
+        { name: "Wig Customisation", description: "Personalise your existing wig with professional colouring, tinting, bleaching, cutting and restyling to achieve your desired look.", price: "From POA", badge: null },
+        { name: "Wig Installation", description: "Secure, seamless and natural-looking wig installation. Lace fronts, full lace, glue-less and tape methods available.", price: "From POA", badge: null },
+        { name: "Wig Revamp & Restyling", description: "Breathe new life into an existing wig. Wash, condition, restyle and restore your wig to pristine condition.", price: "From POA", badge: null },
+        { name: "Wig Styling", description: "Professional styling of your own wig — cut, set, curl, straighten or blow-out for any occasion.", price: "From POA", badge: null }
+      ]
+    },
+    {
+      category: "Hair Services",
+      items: [
+        { name: "Ghana Braids", description: "Classic and feed-in Ghana braids styled to perfection. Small, medium or large, to waist length or beyond.", price: "From POA", badge: "Popular" },
+        { name: "Knotless Braids", description: "Natural-looking knotless box braids with reduced tension. Various lengths and thicknesses available.", price: "From POA", badge: null },
+        { name: "Box Braids", description: "Classic box braids in any size, length or colour. Single colours, ombré and multicolour options.", price: "From POA", badge: null },
+        { name: "Cornrows", description: "Straight back, freestyle and intricate cornrow designs. Also available as a foundation for weave or protective styles.", price: "From POA", badge: null },
+        { name: "Weaves", description: "Sew-in, glue-in and quick weave methods. Straight, wavy, curly — all textures and lengths available.", price: "From POA", badge: null },
+        { name: "Natural Hair & Treatments", description: "Natural hair styling, wash and go, twist-out, braid-out, blowouts and deep conditioning treatments.", price: "From POA", badge: null },
+        { name: "Hair Colouring", description: "Colouring for all hair types including highlights, balayage, single process and fashion colours.", price: "From POA", badge: null },
+        { name: "Men's Hair Services", description: "Professional haircuts, edge-ups, braids and hair care services for men.", price: "From POA", badge: null }
+      ]
+    }
+  ],
+  testimonials: [
+    { text: "I loved the hairstyle she did for me. I strongly recommend her — book now!!", author: "Client", via: "Google", stars: 4 },
+    { text: "Highly recommend her services! Absolutely stunning results every time.", author: "G", via: "Google", stars: 5 },
+    { text: "Very very reliable, never cancelled. Very affordable prices and exceptional quality work.", author: "Assy Jean-Claude Eddy", via: "Google", stars: 5 }
+  ],
+  products: [
+    { name: "Custom Lace Front Wig", category: "Custom Wigs", description: "Fully bespoke lace front wig made to your measurements. Choice of hair type, density, length and colour.", price: "POA", badge: "Signature", badgeType: "badge-new" },
+    { name: "Ready-to-Wear Straight Wig", category: "Ready-to-Wear", description: "Premium quality straight wig available in multiple lengths. Soft, natural appearance with adjustable cap.", price: "POA", badge: "Popular", badgeType: "badge-popular" },
+    { name: "Curly Full Lace Wig", category: "Ready-to-Wear", description: "Voluminous curly wig with full lace construction for the most natural hairline. Multiple curl patterns.", price: "POA", badge: null, badgeType: null },
+    { name: "Knotless Braid Wig", category: "Custom Wigs", description: "Handcrafted knotless braid wig — all the style of braids without the installation time.", price: "POA", badge: null, badgeType: null },
+    { name: "Professional Edge Control", category: "Hair Products", description: "Strong-hold edge control for sleek styles that last all day. Suitable for all hair types.", price: "From £8", badge: null, badgeType: null },
+    { name: "Afro Hair Care Kit", category: "Afro Products", description: "Essential kit for natural Afro hair care: deep conditioner, leave-in and oil blend.", price: "From £25", badge: "New", badgeType: "badge-new" }
+  ],
+  galleryItems: [
+    { cat: "wigs", color: "#1a1208", label: "Wig" },
+    { cat: "braids", color: "#0f1010", label: "Braids" },
+    { cat: "installations", color: "#120a08", label: "Installation" },
+    { cat: "wigs", color: "#0d0f0a", label: "Wig" },
+    { cat: "cornrows", color: "#0a0a14", label: "Cornrows" },
+    { cat: "braids", color: "#100f0a", label: "Braids" },
+    { cat: "styling", color: "#0f0f14", label: "Styling" },
+    { cat: "wigs", color: "#141008", label: "Wig" },
+    { cat: "installations", color: "#0a1410", label: "Installation" },
+    { cat: "braids", color: "#100810", label: "Braids" },
+    { cat: "wigs", color: "#0e120a", label: "Wig" },
+    { cat: "cornrows", color: "#08100e", label: "Cornrows" }
+  ],
+  whyChooseUs: [
+    { icon: "✦", title: "Specialist Expertise", text: "Deep expertise in wig construction, Afro hair and all hair services. Not generalists — specialists." },
+    { icon: "✧", title: "Completely Personalised", text: "Every service is tailored to your face, hair type, lifestyle and aesthetic. Nothing off the shelf." },
+    { icon: "◆", title: "Trusted & Reliable", text: "4.9 stars on Google. Never cancelled. We respect your time and deliver on our promise every appointment." },
+    { icon: "◇", title: "All Hair Types", text: "We serve men and women of all ethnicities. Professional care for every hair texture and type." }
+  ]
+};
+
+/* SPA ROUTING */
+function navigateTo(page) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  const target = document.getElementById('page-' + page);
+  if (target) target.classList.add('active');
+  document.querySelectorAll('.nav-links .nav-link').forEach(l => {
+    l.classList.toggle('active', l.textContent.trim().toLowerCase() === page || (page === 'home' && l.textContent.trim().toLowerCase() === 'home'));
+  });
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+  const titles = { home:"Hair'Riette — Luxury Wig & Afro Hair Artistry | Brixton, London", about:"About — Hair'Riette", services:"Services & Booking — Hair'Riette", gallery:"Gallery — Hair'Riette", shop:"Shop — Hair'Riette", contact:"Contact — Hair'Riette" };
+  document.title = titles[page] || titles.home;
+}
+
+/* NAV SCROLL */
+window.addEventListener('scroll', () => {
+  document.getElementById('mainNav').classList.toggle('scrolled', window.scrollY > 60);
+}, { passive: true });
+
+/* MOBILE NAV */
+let mobileNavOpen = false;
+function toggleMobileNav() {
+  mobileNavOpen = !mobileNavOpen;
+  document.getElementById('mobileNav').classList.toggle('open', mobileNavOpen);
+  document.getElementById('navBurger').setAttribute('aria-expanded', String(mobileNavOpen));
+  document.body.style.overflow = mobileNavOpen ? 'hidden' : '';
+}
+
+/* BOOKING MODAL */
+function openBooking(serviceName) {
+  const modal = document.getElementById('bookingModal');
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  const dateInput = document.getElementById('bk-date');
+  dateInput.setAttribute('min', new Date().toISOString().split('T')[0]);
+  if (serviceName) {
+    const sel = document.getElementById('bk-service');
+    for (let opt of sel.options) {
+      if (opt.text.trim() === serviceName) { sel.value = opt.value; break; }
+    }
+  }
+  setTimeout(() => { const el = document.getElementById('bk-name'); if (el) el.focus(); }, 100);
+}
+function closeBooking() {
+  document.getElementById('bookingModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function handleModalOverlayClick(e) { if (e.target === e.currentTarget) closeBooking(); }
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBooking(); });
+
+function getBookingData() {
+  return {
+    name: document.getElementById('bk-name').value.trim(),
+    phone: document.getElementById('bk-phone').value.trim(),
+    email: document.getElementById('bk-email').value.trim(),
+    service: document.getElementById('bk-service').value,
+    date: document.getElementById('bk-date').value,
+    time: document.getElementById('bk-time').value,
+    notes: document.getElementById('bk-notes').value.trim()
+  };
+}
+function submitByEmail() {
+  const d = getBookingData();
+  if (!d.name || !d.service) { alert('Please fill in your name and select a service.'); return; }
+  const sub = encodeURIComponent('Booking Request — ' + d.service + ' — ' + d.name);
+  const body = encodeURIComponent("Hello Hair'Riette,\n\nI would like to book:\n\nService: " + d.service + "\nName: " + d.name + "\nPhone: " + (d.phone||'Not provided') + "\nEmail: " + (d.email||'Not provided') + "\nPreferred Date: " + (d.date||'Flexible') + "\nPreferred Time: " + d.time + "\nNotes: " + (d.notes||'None') + "\n\nThank you.");
+  window.location.href = 'mailto:' + BUSINESS.contact.email + '?subject=' + sub + '&body=' + body;
+}
+function submitByWhatsApp() {
+  const d = getBookingData();
+  if (!d.name || !d.service) { alert('Please fill in your name and select a service.'); return; }
+  const msg = encodeURIComponent("Hello Hair'Riette! 👋\n\nI would like to book: *" + d.service + "*\n\nMy name is *" + d.name + "*.\n" + (d.phone ? 'Phone: ' + d.phone + '\n' : '') + (d.date ? 'Preferred date: ' + d.date + '\n' : '') + 'Preferred time: ' + d.time + (d.notes ? '\n\nAdditional info: ' + d.notes : '') + '\n\nThank you!');
+  window.open('https://wa.me/' + BUSINESS.contact.whatsapp + '?text=' + msg, '_blank');
+}
+
+/* CONTACT FORM */
+function submitContactForm(e) {
+  e.preventDefault();
+  const name = document.getElementById('cf-name').value.trim();
+  const email = document.getElementById('cf-email').value.trim();
+  const msg = document.getElementById('cf-msg').value.trim();
+  if (!name || !email || !msg) { alert('Please fill in all required fields.'); return; }
+  const sub = encodeURIComponent(document.getElementById('cf-subject').value || 'Website Enquiry');
+  const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nPhone: ' + (document.getElementById('cf-phone').value||'Not provided') + '\n\nMessage:\n' + msg);
+  window.location.href = 'mailto:' + BUSINESS.contact.email + '?subject=' + sub + '&body=' + body;
+}
+
+/* RENDERS */
+function renderHomeServices() {
+  const grid = document.getElementById('homeServicesGrid');
+  if (!grid) return;
+  grid.innerHTML = BUSINESS.homeServices.map((svc, i) => '<div class="service-card" onclick="navigateTo(\'services\')" role="button" tabindex="0" aria-label="' + svc.name + '" onkeydown="if(event.key===\'Enter\')navigateTo(\'services\')">' +
+    '<div class="service-card-bg ' + svc.bgClass + '">' +
+    '<svg viewBox="0 0 400 533" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%" aria-hidden="true"><path d="M 200 60 C 300 80 360 160 350 280 C 340 400 280 460 260 520 L 200 533 L 140 520 C 120 460 60 400 50 280 C 40 160 100 80 200 60 Z" fill="none" stroke="#C9A96E" stroke-width="1.2" opacity="' + (0.15 + (i%3)*0.05) + '"/></svg>' +
+    '</div><div class="service-card-overlay"></div>' +
+    '<div class="service-card-content"><div class="service-card-label">' + (i<3?'Wig Service':'Hair Service') + '</div><h3 class="service-card-title">' + svc.name + '</h3><p class="service-card-desc">' + svc.description + '</p><span class="service-card-link">Book This Service</span></div>' +
+    '</div>').join('');
+}
+
+function renderTestimonials() {
+  const grid = document.getElementById('testimonialsGrid');
+  if (!grid) return;
+  grid.innerHTML = BUSINESS.testimonials.map(t => '<div class="testimonial-card"><div class="testimonial-stars" aria-label="' + t.stars + ' stars">' + '★'.repeat(t.stars) + '☆'.repeat(5-t.stars) + '</div><blockquote class="testimonial-text">"' + t.text + '"</blockquote><div class="testimonial-author"><div class="testimonial-avatar" aria-hidden="true">' + t.author.charAt(0).toUpperCase() + '</div><div><p class="testimonial-name">' + t.author + '</p><p class="testimonial-via">via ' + t.via + '</p></div></div></div>').join('');
+}
+
+function renderSocialGrid() {
+  const grid = document.getElementById('socialGrid');
+  if (!grid) return;
+  const colors = ['#1a1208','#0f1010','#120a08','#0d0f0a','#0a0a14','#100f0a','#0f0f14','#141008'];
+  grid.innerHTML = colors.map((c,i) => '<a href="' + BUSINESS.social.instagram + '" target="_blank" rel="noopener noreferrer" class="social-cell" aria-label="View on Instagram"><div class="social-cell-bg" style="background:' + c + ';display:flex;align-items:center;justify-content:center"><svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%" aria-hidden="true"><rect width="300" height="300" fill="' + c + '"/><path d="M 150 40 C 220 40 270 90 270 160 C 270 240 220 280 170 285 L 150 290 L 130 285 C 80 280 30 240 30 160 C 30 90 80 40 150 40 Z" fill="none" stroke="#C9A96E" stroke-width="' + (1+(i%2)*0.5) + '" opacity="' + (0.15+(i%4)*0.08) + '"/></svg></div><div class="social-cell-overlay"><span class="social-cell-icon" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/></svg></span></div></a>').join('');
+}
+
+function renderServices() {
+  const container = document.getElementById('servicesContainer');
+  if (!container) return;
+  container.innerHTML = BUSINESS.services.map(cat => '<div class="services-cat"><div class="services-cat-header"><h2 class="services-cat-title">' + cat.category + '</h2><span class="services-cat-count">' + cat.items.length + ' Services</span></div><div class="services-list">' +
+    cat.items.map(item => '<div class="service-item" onclick="openBooking(\'' + item.name.replace(/'/g,"\\'") + '\')" role="button" tabindex="0" aria-label="Book ' + item.name + '" onkeydown="if(event.key===\'Enter\')openBooking(\'' + item.name.replace(/'/g,"\\'") + '\')">' +
+      '<div class="service-item-left">' + (item.badge ? '<div class="label" style="color:var(--gold);margin-bottom:8px;font-size:0.6rem">' + item.badge + '</div>' : '') +
+      '<h3 class="service-item-name">' + item.name + '</h3><p class="service-item-desc">' + item.description + '</p></div>' +
+      '<div class="service-item-right"><div class="service-item-price">' + item.price + '</div><div class="service-item-book">Book</div></div></div>').join('') +
+    '</div></div>').join('');
+}
+
+function renderGallery(filter) {
+  const grid = document.getElementById('galleryGrid');
+  if (!grid) return;
+  const items = (!filter || filter === 'all') ? BUSINESS.galleryItems : BUSINESS.galleryItems.filter(i => i.cat === filter);
+  grid.innerHTML = items.map((item, i) => '<div class="gallery-item" role="button" tabindex="0" aria-label="' + item.label + '" onclick="showGalleryNote(\'' + item.label + '\')" onkeydown="if(event.key===\'Enter\')showGalleryNote(\'' + item.label + '\')">' +
+    '<div class="gallery-item-bg" style="background:' + item.color + ';position:relative;overflow:hidden"><svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%" aria-hidden="true"><rect width="400" height="400" fill="' + item.color + '"/><path d="M 200 20 C 300 40 380 120 370 220 C 360 320 290 380 200 390 C 110 380 40 320 30 220 C 20 120 100 40 200 20 Z" fill="none" stroke="#C9A96E" stroke-width="' + (1.5+(i%3)*0.5) + '" opacity="' + (0.12+(i%5)*0.06) + '"/><text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="60" font-weight="300" fill="#C9A96E" opacity="' + (0.08+(i%3)*0.04) + '">' + item.label.charAt(0) + '</text><text x="50%" y="68%" dominant-baseline="middle" text-anchor="middle" font-family="Manrope,sans-serif" font-size="7" letter-spacing="3" fill="#C9A96E" opacity="0.2">' + item.label.toUpperCase() + '</text></svg></div>' +
+    '<div class="gallery-item-overlay"><span class="gallery-item-cat">' + item.label + '</span></div></div>').join('');
+}
+
+function showGalleryNote(label) {
+  alert('Gallery: ' + label + '\n\nReplace this placeholder with real photography from the Hair\'Riette studio to showcase your work.');
+}
+
+function renderGalleryFilters() {
+  const container = document.getElementById('galleryFilter');
+  if (!container) return;
+  const cats = ['all', ...new Set(BUSINESS.galleryItems.map(i => i.cat))];
+  container.innerHTML = cats.map(cat => '<button class="filter-btn ' + (cat==='all'?'active':'') + '" onclick="filterGallery(\'' + cat + '\',this)" aria-pressed="' + (cat==='all') + '" type="button">' + (cat==='all'?'All Work':cat.charAt(0).toUpperCase()+cat.slice(1)) + '</button>').join('');
+}
+
+function filterGallery(cat, btn) {
+  document.querySelectorAll('#galleryFilter .filter-btn').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed','false'); });
+  btn.classList.add('active'); btn.setAttribute('aria-pressed','true');
+  renderGallery(cat);
+}
+
+function renderShop(filter) {
+  const grid = document.getElementById('shopGrid');
+  if (!grid) return;
+  const items = (!filter || filter === 'all') ? BUSINESS.products : BUSINESS.products.filter(p => p.category === filter);
+  const bgColors = ['#1a1208','#0f1010','#120a08','#0d0f0a','#0a0a14','#100f0a'];
+  grid.innerHTML = items.map((p, i) => '<div class="product-card"><div class="product-img"><div class="product-img-bg" style="background:' + bgColors[i%6] + '"><svg viewBox="0 0 400 533" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%" aria-hidden="true"><rect width="400" height="533" fill="' + bgColors[i%6] + '"/><path d="M 200 60 C 310 80 370 160 360 280 C 350 400 290 460 270 520 L 200 533 L 130 520 C 110 460 50 400 40 280 C 30 160 90 80 200 60 Z" fill="none" stroke="#C9A96E" stroke-width="1.5" opacity="0.25"/><text x="50%" y="48%" dominant-baseline="middle" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="64" font-weight="300" fill="#C9A96E" opacity="0.08">' + p.name.charAt(0) + '</text></svg></div>' +
+    (p.badge ? '<span class="product-badge ' + p.badgeType + '">' + p.badge + '</span>' : '') + '</div>' +
+    '<div class="product-info"><p class="product-cat-label">' + p.category + '</p><h3 class="product-name">' + p.name + '</h3><p class="product-desc">' + p.description + '</p>' +
+    '<div class="product-footer"><div class="product-price">' + p.price + '<br><small>Enquire for details</small></div><div class="product-enquire" onclick="openBooking(\'' + p.name.replace(/'/g,"\\'") + '\')">Enquire</div></div></div></div>').join('');
+}
+
+function renderShopCats() {
+  const container = document.getElementById('shopCats');
+  if (!container) return;
+  const cats = ['all', ...new Set(BUSINESS.products.map(p => p.category))];
+  container.innerHTML = cats.map(cat => '<button class="filter-btn ' + (cat==='all'?'active':'') + '" onclick="filterShop(\'' + cat.replace(/'/g,"\\'") + '\',this)" aria-pressed="' + (cat==='all') + '" type="button">' + (cat==='all'?'All Products':cat) + '</button>').join('');
+}
+
+function filterShop(cat, btn) {
+  document.querySelectorAll('#shopCats .filter-btn').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed','false'); });
+  btn.classList.add('active'); btn.setAttribute('aria-pressed','true');
+  renderShop(cat === 'all' ? 'all' : cat);
+}
+
+function renderWhyChooseUs() {
+  const grid = document.getElementById('whyGrid');
+  if (!grid) return;
+  grid.innerHTML = BUSINESS.whyChooseUs.map(w => '<div class="why-card"><span class="why-icon" aria-hidden="true">' + w.icon + '</span><h3 class="why-title">' + w.title + '</h3><p class="why-text">' + w.text + '</p></div>').join('');
+}
+
+function renderHours() {
+  const grid = document.getElementById('hoursGrid');
+  if (!grid) return;
+  const dayNames = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const todayName = dayNames[new Date().getDay()];
+  grid.innerHTML = BUSINESS.openingHours.map(h => '<div class="hour-row' + (h.day===todayName?' today':'') + '"><span class="hour-day">' + h.day + (h.day===todayName?' (Today)':'') + '</span><span class="hour-time">' + h.time + '</span></div>').join('');
+}
+
+/* INIT */
+document.addEventListener('DOMContentLoaded', () => {
+  renderHomeServices();
+  renderTestimonials();
+  renderSocialGrid();
+  renderServices();
+  renderGalleryFilters();
+  renderGallery('all');
+  renderShop('all');
+  renderShopCats();
+  renderWhyChooseUs();
+  renderHours();
+  window.scrollTo(0, 0);
+});
+</script>
+</body>
+</html>
