@@ -1,0 +1,61 @@
+{
+  "updated": "2026-10-08T13:57:48.208Z",
+  "products": [
+    {
+      "id": "wig-cut-100-naturels-brazilian-hair-muzlpopf",
+      "name": "Wig cut 100%  naturels brazilian hair",
+      "category": "Bob Wigs",
+      "description": "Wig cut 100%  naturels brazilian hair",
+      "price": 60,
+      "badge": "new",
+      "stripeLink": "",
+      "active": true,
+      "images": [
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-muzlpopf-muzlpopi-0.jpg"
+      ],
+      "image": "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-muzlpopf-muzlpopi-0.jpg"
+    },
+    {
+      "id": "bob-fringe-14in",
+      "name": "14\" Straight Bob with Fringe",
+      "category": "Bob Wigs",
+      "description": "14-inch straight bob with a full fringe in premium virgin human hair. Silky, natural movement and easy to style.",
+      "price": 130,
+      "badge": "new",
+      "images": [
+        "images/product-bob-fringe-14in.jpg"
+      ],
+      "image": "images/product-bob-fringe-14in.jpg",
+      "stripeLink": "",
+      "active": true
+    },
+    {
+      "id": "deep-wave-12in",
+      "name": "12\" Deep Wave 4x4 Closure Wig",
+      "category": "Curly Wigs",
+      "description": "12-inch deep wave curls on a 4x4 lace closure. Full, bouncy volume with a natural-looking parting.",
+      "price": 120,
+      "badge": "popular",
+      "images": [
+        "images/product-deep-wave-12in.jpg"
+      ],
+      "image": "images/product-deep-wave-12in.jpg",
+      "stripeLink": "",
+      "active": true
+    },
+    {
+      "id": "short-cut-brazilian",
+      "name": "Short Cut Wig — 100% Brazilian Hair",
+      "category": "Short Cut Wigs",
+      "description": "Chic short cut in 100% Brazilian human hair with honey highlights. Lightweight and ready to wear every day.",
+      "price": 60,
+      "badge": "",
+      "images": [
+        "images/product-short-cut-brazilian.jpg"
+      ],
+      "image": "images/product-short-cut-brazilian.jpg",
+      "stripeLink": "",
+      "active": true
+    }
+  ]
+}
