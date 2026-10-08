@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-08T14:21:35.211Z",
+  "updated": "2026-10-08T14:24:20.877Z",
   "products": [
+    {
+      "id": "wig-cut-100-naturels-brazilian-hair-colo-muzmnq5y",
+      "name": "Wig cut 100% naturels brazilian hair  color is blonde",
+      "category": "Short Cut Wigs",
+      "description": "Wig cut 100% naturels brazilian hair  color is blonde £90",
+      "price": 90,
+      "badge": "new",
+      "stripeLink": "",
+      "active": true,
+      "images": [
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-colo-muzmnq5y-muzmnq61-0.jpg",
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-colo-muzmnq5y-muzmnsbd-1.jpg",
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-colo-muzmnq5y-muzmntjd-2.jpg"
+      ],
+      "image": "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-colo-muzmnq5y-muzmnq61-0.jpg"
+    },
     {
       "id": "wig-cut-curly-100-naturels-brazilian-hai-muzmk9pj",
       "name": "Wig cut curly 100%  naturels brazilian hair",
