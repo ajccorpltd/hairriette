@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-08T14:29:09.123Z",
+  "updated": "2026-10-08T14:31:18.319Z",
   "products": [
+    {
+      "id": "wig-cut-100-naturels-brazilian-hair-colo-muzmwpil",
+      "name": "Wig cut 100% naturels brazilian hair color is black",
+      "category": "naturels brazilian hair",
+      "description": "Wig cut 100% naturels brazilian hair color is black £60",
+      "price": 60,
+      "badge": "new",
+      "stripeLink": "",
+      "active": true,
+      "images": [
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-colo-muzmwpil-muzmwpio-0.jpg",
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-colo-muzmwpil-muzmwqnc-1.jpg",
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-colo-muzmwpil-muzmwrtd-2.jpg"
+      ],
+      "image": "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-colo-muzmwpil-muzmwpio-0.jpg"
+    },
     {
       "id": "wig-cut-100-naturels-brazilian-hair-colo-muzmtypp",
       "name": "Wig cut 100% naturels brazilian hair  color is gray",
