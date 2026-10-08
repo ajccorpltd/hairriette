@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "user": "hairriette",
+      "salt": "OMOh2VYmbRHe5mUZJ7tSkQ==",
+      "iv": "83UD6cS1ZN168Sol",
+      "iterations": 600000,
+      "data": "WJWrDGs7NJQi54IMKiJHCMpiDpGIGJbjvJEPPgUdUgx+P5R9/l+02wcysWsVBYHBzoNdTBLDfQ75vis3g0O7V3XjFqFc/J8gQTzRvb6xKnerNz+8aa23w8aBk6dKQ9xUeIy89AdgY9fUq4yOsQ=="
+    }
+  ]
+}
