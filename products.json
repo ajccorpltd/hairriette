@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-08T14:36:28.536Z",
+  "updated": "2026-10-08T14:38:38.345Z",
   "products": [
+    {
+      "id": "12a-brazilian-straight-short-bob-wig-wit-muzn6744",
+      "name": "12A Brazilian Straight Short Bob Wig with 5x5 Closure",
+      "category": "Straight Wigs",
+      "description": "12A Brazilian Straight Short Bob Wig with 5x5 Closure",
+      "price": 130,
+      "badge": "popular",
+      "stripeLink": "",
+      "active": true,
+      "images": [
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/12a-brazilian-straight-short-bob-wig-wit-muzn6744-muzn6747-0.jpg"
+      ],
+      "image": "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/12a-brazilian-straight-short-bob-wig-wit-muzn6744-muzn6747-0.jpg"
+    },
     {
       "id": "perruque-cut-bob-4x4-closure-qualite-12a-muzn3f85",
       "name": "Perruque Cut Bob 4x4 closure Qualité 12A lisses 100%Humains  hair brésiliens",
