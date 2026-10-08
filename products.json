@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-08T14:35:27.953Z",
+  "updated": "2026-10-08T14:36:28.536Z",
   "products": [
+    {
+      "id": "perruque-cut-bob-4x4-closure-qualite-12a-muzn3f85",
+      "name": "Perruque Cut Bob 4x4 closure Qualité 12A lisses 100%Humains  hair brésiliens",
+      "category": "Bob Wigs",
+      "description": "Perruque Cut Bob 4x4 closure Qualité 12A lisses 100%Humains  hair brésiliens",
+      "price": 130,
+      "badge": "new",
+      "stripeLink": "",
+      "active": true,
+      "images": [
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/perruque-cut-bob-4x4-closure-qualite-12a-muzn3f85-muzn3f89-0.jpg"
+      ],
+      "image": "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/perruque-cut-bob-4x4-closure-qualite-12a-muzn3f85-muzn3f89-0.jpg"
+    },
     {
       "id": "perruque-cut-bob-ombre-dark-roots-brown--muzmz9vw",
       "name": "Perruque Cut Bob Ombre Dark roots Brown 100% naturels brésiliens hair",
