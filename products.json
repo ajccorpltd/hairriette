@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-08T14:31:18.319Z",
+  "updated": "2026-10-08T14:33:15.247Z",
   "products": [
+    {
+      "id": "perruque-cut-bob-ombre-dark-roots-brown--muzmz9vw",
+      "name": "Perruque Cut Bob Ombre Dark roots Brown 100% naturels brésiliens hair",
+      "category": "Bob Wigs",
+      "description": "Perruque Cut Bob Ombre Dark roots Brown 100% naturels brésiliens hair £140",
+      "price": 140,
+      "badge": "popular",
+      "stripeLink": "",
+      "active": true,
+      "images": [
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/perruque-cut-bob-ombre-dark-roots-brown--muzmz9vw-muzmz9vy-0.jpg"
+      ],
+      "image": "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/perruque-cut-bob-ombre-dark-roots-brown--muzmz9vw-muzmz9vy-0.jpg"
+    },
     {
       "id": "wig-cut-100-naturels-brazilian-hair-colo-muzmwpil",
       "name": "Wig cut 100% naturels brazilian hair color is black",
