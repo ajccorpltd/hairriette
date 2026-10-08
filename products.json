@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-08T13:57:48.208Z",
+  "updated": "2026-10-08T14:21:35.211Z",
   "products": [
+    {
+      "id": "wig-cut-curly-100-naturels-brazilian-hai-muzmk9pj",
+      "name": "Wig cut curly 100%  naturels brazilian hair",
+      "category": "Curly Wigs",
+      "description": "Wig cut curly 100%  naturels brazilian hair",
+      "price": 60,
+      "badge": "new",
+      "stripeLink": "",
+      "active": true,
+      "images": [
+        "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-curly-100-naturels-brazilian-hai-muzmk9pj-muzmk9pm-0.jpg"
+      ],
+      "image": "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-curly-100-naturels-brazilian-hai-muzmk9pj-muzmk9pm-0.jpg"
+    },
     {
       "id": "wig-cut-100-naturels-brazilian-hair-muzlpopf",
       "name": "Wig cut 100%  naturels brazilian hair",
@@ -8,12 +22,12 @@
       "description": "Wig cut 100%  naturels brazilian hair",
       "price": 60,
       "badge": "new",
-      "stripeLink": "",
-      "active": true,
       "images": [
         "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-muzlpopf-muzlpopi-0.jpg"
       ],
-      "image": "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-muzlpopf-muzlpopi-0.jpg"
+      "image": "https://raw.githubusercontent.com/ajccorpltd/hairriette/main/images/products/wig-cut-100-naturels-brazilian-hair-muzlpopf-muzlpopi-0.jpg",
+      "stripeLink": "",
+      "active": true
     },
     {
       "id": "bob-fringe-14in",
